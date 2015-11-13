@@ -10,13 +10,13 @@ const App = (props) => {
 	return (
 		<Page title="React WeUI" desc="为微信Web服务量身设计">
 			<Cells split access className="global_navs">
-				<Cell link="/#/button">
+				<Cell link="#/button">
 					<CellHeader>
 						<img src="./images/icon_nav_button.png" className="icon_nav" />
 					</CellHeader>
 					<CellBody>Button</CellBody>
 				</Cell>
-				<Cell link="/#/cell">
+				<Cell link="#/cell">
 					<CellHeader>
 						<img src="./images/icon_nav_cell.png" className="icon_nav" />
 					</CellHeader>
