@@ -24937,6 +24937,10 @@
 	
 	var _cellBody2 = _interopRequireDefault(_cellBody);
 	
+	var _cellFooter = __webpack_require__(376);
+	
+	var _cellFooter2 = _interopRequireDefault(_cellFooter);
+	
 	var _page = __webpack_require__(377);
 	
 	var _page2 = _interopRequireDefault(_page);
@@ -24949,21 +24953,21 @@
 			_page2.default,
 			{ title: 'React WeUI', desc: '为微信Web服务量身设计', __source: {
 					fileName: '../../../src/example/pages/main.jsx',
-					lineNumber: 11
+					lineNumber: 12
 				}
 			},
 			_react2.default.createElement(
 				_cells2.default,
 				{ split: true, access: true, className: 'global_navs', __source: {
 						fileName: '../../../src/example/pages/main.jsx',
-						lineNumber: 12
+						lineNumber: 13
 					}
 				},
 				_react2.default.createElement(
 					_cell2.default,
 					{ link: '#/button', __source: {
 							fileName: '../../../src/example/pages/main.jsx',
-							lineNumber: 13
+							lineNumber: 14
 						}
 					},
 					_react2.default.createElement(
@@ -24971,12 +24975,12 @@
 						{
 							__source: {
 								fileName: '../../../src/example/pages/main.jsx',
-								lineNumber: 14
+								lineNumber: 15
 							}
 						},
 						_react2.default.createElement('img', { src: './images/icon_nav_button.png', className: 'icon_nav', __source: {
 								fileName: '../../../src/example/pages/main.jsx',
-								lineNumber: 15
+								lineNumber: 16
 							}
 						})
 					),
@@ -24985,17 +24989,23 @@
 						{
 							__source: {
 								fileName: '../../../src/example/pages/main.jsx',
-								lineNumber: 17
+								lineNumber: 18
 							}
 						},
 						'Button'
-					)
+					),
+					_react2.default.createElement(_cellFooter2.default, {
+						__source: {
+							fileName: '../../../src/example/pages/main.jsx',
+							lineNumber: 19
+						}
+					})
 				),
 				_react2.default.createElement(
 					_cell2.default,
 					{ link: '#/cell', __source: {
 							fileName: '../../../src/example/pages/main.jsx',
-							lineNumber: 19
+							lineNumber: 21
 						}
 					},
 					_react2.default.createElement(
@@ -25003,12 +25013,12 @@
 						{
 							__source: {
 								fileName: '../../../src/example/pages/main.jsx',
-								lineNumber: 20
+								lineNumber: 22
 							}
 						},
 						_react2.default.createElement('img', { src: './images/icon_nav_cell.png', className: 'icon_nav', __source: {
 								fileName: '../../../src/example/pages/main.jsx',
-								lineNumber: 21
+								lineNumber: 23
 							}
 						})
 					),
@@ -25017,11 +25027,17 @@
 						{
 							__source: {
 								fileName: '../../../src/example/pages/main.jsx',
-								lineNumber: 23
+								lineNumber: 25
 							}
 						},
 						'Cell'
-					)
+					),
+					_react2.default.createElement(_cellFooter2.default, {
+						__source: {
+							fileName: '../../../src/example/pages/main.jsx',
+							lineNumber: 26
+						}
+					})
 				)
 			)
 		);
@@ -25097,10 +25113,7 @@
 			)
 		);
 	};
-	//type: primary warn default
-	//state: disabled
-	//visual plain
-	//mini
+	
 	Cells.propTypes = {
 		className: _react2.default.PropTypes.string,
 		title: _react2.default.PropTypes.string,
@@ -25550,7 +25563,7 @@
 	
 	Cell.defaultProps = {
 		className: '',
-		link: 'javascript:;'
+		link: null
 	};
 	
 	exports.default = Cell;
@@ -25625,7 +25638,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var CellBody = function CellBody(props) {
-		var className = 'weui_cell_hd';
+		var className = 'weui_cell_bd';
 	
 		if (props.className) className += ' ' + props.className;
 		if (props.primary) className += ' weui_cell_primary';
@@ -25674,7 +25687,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var CellFooter = function CellFooter(props) {
-		var className = 'weui_cell_hd';
+		var className = 'weui_cell_ft';
 	
 		if (props.className) className += ' ' + props.className;
 		if (props.primary) className += ' weui_cell_primary';
@@ -30709,6 +30722,10 @@
 	
 	var _cellBody2 = _interopRequireDefault(_cellBody);
 	
+	var _cellFooter = __webpack_require__(376);
+	
+	var _cellFooter2 = _interopRequireDefault(_cellFooter);
+	
 	var _page = __webpack_require__(377);
 	
 	var _page2 = _interopRequireDefault(_page);
@@ -30717,25 +30734,405 @@
 	
 	var PageCell = function PageCell(props) {
 	
+		var iconStyle = {
+			width: '20px',
+			marginRight: '5px',
+			display: 'block'
+		};
+	
+		var icon = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=";
+	
 		return _react2.default.createElement(
 			_page2.default,
 			{ title: 'Cell', className: 'cell', __source: {
 					fileName: '../../../src/example/pages/page-cell.jsx',
-					lineNumber: 11
+					lineNumber: 20
 				}
 			},
 			_react2.default.createElement(
 				'div',
 				{ className: 'bd', __source: {
 						fileName: '../../../src/example/pages/page-cell.jsx',
-						lineNumber: 12
+						lineNumber: 21
 					}
 				},
-				_react2.default.createElement(_cellBody2.default, { title: '带说明的列表项', __source: {
-						fileName: '../../../src/example/pages/page-cell.jsx',
-						lineNumber: 13
-					}
-				})
+				_react2.default.createElement(
+					_cells2.default,
+					{ title: '带说明的列表项', __source: {
+							fileName: '../../../src/example/pages/page-cell.jsx',
+							lineNumber: 22
+						}
+					},
+					_react2.default.createElement(
+						_cell2.default,
+						{
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 23
+							}
+						},
+						_react2.default.createElement(
+							_cellBody2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 24
+								}
+							},
+							'标题文字'
+						),
+						_react2.default.createElement(
+							_cellFooter2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 25
+								}
+							},
+							'说明文字'
+						)
+					)
+				),
+				_react2.default.createElement(
+					_cells2.default,
+					{ title: '带图标、说明的列表项', split: true, __source: {
+							fileName: '../../../src/example/pages/page-cell.jsx',
+							lineNumber: 28
+						}
+					},
+					_react2.default.createElement(
+						_cell2.default,
+						{
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 29
+							}
+						},
+						_react2.default.createElement(
+							_cellHeader2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 30
+								}
+							},
+							_react2.default.createElement('img', { style: iconStyle, src: icon, __source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 31
+								}
+							})
+						),
+						_react2.default.createElement(
+							_cellBody2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 33
+								}
+							},
+							'标题文字'
+						),
+						_react2.default.createElement(
+							_cellFooter2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 34
+								}
+							},
+							'说明文字'
+						)
+					),
+					_react2.default.createElement(
+						_cell2.default,
+						{
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 36
+							}
+						},
+						_react2.default.createElement(
+							_cellHeader2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 37
+								}
+							},
+							_react2.default.createElement('img', { style: iconStyle, src: icon, __source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 38
+								}
+							})
+						),
+						_react2.default.createElement(
+							_cellBody2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 40
+								}
+							},
+							'标题文字'
+						),
+						_react2.default.createElement(
+							_cellFooter2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 41
+								}
+							},
+							'说明文字'
+						)
+					)
+				),
+				_react2.default.createElement(
+					_cells2.default,
+					{ title: '带跳转的列表项', access: true, split: true, access: true, __source: {
+							fileName: '../../../src/example/pages/page-cell.jsx',
+							lineNumber: 44
+						}
+					},
+					_react2.default.createElement(
+						_cell2.default,
+						{
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 45
+							}
+						},
+						_react2.default.createElement(
+							_cellBody2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 46
+								}
+							},
+							'Cell Standard'
+						),
+						_react2.default.createElement(_cellFooter2.default, {
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 47
+							}
+						})
+					),
+					_react2.default.createElement(
+						_cell2.default,
+						{
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 49
+							}
+						},
+						_react2.default.createElement(
+							_cellBody2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 50
+								}
+							},
+							'Cell Standard'
+						),
+						_react2.default.createElement(_cellFooter2.default, {
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 51
+							}
+						})
+					)
+				),
+				_react2.default.createElement(
+					_cells2.default,
+					{ title: '带说明、跳转的列表项', split: true, access: true, __source: {
+							fileName: '../../../src/example/pages/page-cell.jsx',
+							lineNumber: 54
+						}
+					},
+					_react2.default.createElement(
+						_cell2.default,
+						{
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 55
+							}
+						},
+						_react2.default.createElement(
+							_cellHeader2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 56
+								}
+							},
+							_react2.default.createElement('img', { style: iconStyle, src: icon, __source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 57
+								}
+							})
+						),
+						_react2.default.createElement(
+							_cellBody2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 59
+								}
+							},
+							'标题文字'
+						),
+						_react2.default.createElement(
+							_cellFooter2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 60
+								}
+							},
+							'说明文字'
+						)
+					),
+					_react2.default.createElement(
+						_cell2.default,
+						{
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 62
+							}
+						},
+						_react2.default.createElement(
+							_cellHeader2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 63
+								}
+							},
+							_react2.default.createElement('img', { style: iconStyle, src: icon, __source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 64
+								}
+							})
+						),
+						_react2.default.createElement(
+							_cellBody2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 66
+								}
+							},
+							'标题文字'
+						),
+						_react2.default.createElement(
+							_cellFooter2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 67
+								}
+							},
+							'说明文字'
+						)
+					)
+				),
+				_react2.default.createElement(
+					_cells2.default,
+					{ title: '带图标、说明、跳转的列表项', split: true, access: true, __source: {
+							fileName: '../../../src/example/pages/page-cell.jsx',
+							lineNumber: 70
+						}
+					},
+					_react2.default.createElement(
+						_cell2.default,
+						{
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 71
+							}
+						},
+						_react2.default.createElement(
+							_cellHeader2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 72
+								}
+							},
+							_react2.default.createElement('img', { style: iconStyle, src: icon, __source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 73
+								}
+							})
+						),
+						_react2.default.createElement(
+							_cellBody2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 75
+								}
+							},
+							'标题文字'
+						),
+						_react2.default.createElement(
+							_cellFooter2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 76
+								}
+							},
+							'说明文字'
+						)
+					),
+					_react2.default.createElement(
+						_cell2.default,
+						{
+							__source: {
+								fileName: '../../../src/example/pages/page-cell.jsx',
+								lineNumber: 78
+							}
+						},
+						_react2.default.createElement(
+							_cellHeader2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 79
+								}
+							},
+							_react2.default.createElement('img', { style: iconStyle, src: icon, __source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 80
+								}
+							})
+						),
+						_react2.default.createElement(
+							_cellBody2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 82
+								}
+							},
+							'标题文字'
+						),
+						_react2.default.createElement(
+							_cellFooter2.default,
+							{
+								__source: {
+									fileName: '../../../src/example/pages/page-cell.jsx',
+									lineNumber: 83
+								}
+							},
+							'说明文字'
+						)
+					)
+				)
 			)
 		);
 	};
