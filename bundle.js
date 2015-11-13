@@ -24961,7 +24961,7 @@
 				},
 				_react2.default.createElement(
 					_cell2.default,
-					{ link: '/#/button', __source: {
+					{ link: '#/button', __source: {
 							fileName: '../../../src/example/pages/main.jsx',
 							lineNumber: 13
 						}
@@ -24993,7 +24993,7 @@
 				),
 				_react2.default.createElement(
 					_cell2.default,
-					{ link: '/#/cell', __source: {
+					{ link: '#/cell', __source: {
 							fileName: '../../../src/example/pages/main.jsx',
 							lineNumber: 19
 						}
