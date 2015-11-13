@@ -1,0 +1,31 @@
+import React from 'react';
+import Cells from '../../style/components/cells';
+import Cell from '../../style/components/cells/cell';
+import CellHeader from '../../style/components/cells/cell-header';
+import CellBody from '../../style/components/cells/cell-body';
+import Page from '../components/page';
+
+const App = (props) => {
+
+	return (
+		<Page title="React WeUI" desc="为微信Web服务量身设计">
+			<Cells split access className="global_navs">
+				<Cell link="/#/button">
+					<CellHeader>
+						<img src="./images/icon_nav_button.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Button</CellBody>
+				</Cell>
+				<Cell link="/#/cell">
+					<CellHeader>
+						<img src="./images/icon_nav_cell.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Cell</CellBody>
+				</Cell>
+			</Cells>
+		</Page>
+		);
+};
+
+
+export default App;
