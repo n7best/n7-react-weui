@@ -1,5 +1,5 @@
-import App from './components/app';
+import Cells from './components/cells';
 import Button from './components/button';
 
-export default {App, Button}
+export default {Cells, Button}
 
