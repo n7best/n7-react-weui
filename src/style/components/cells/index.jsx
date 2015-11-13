@@ -26,10 +26,7 @@ const Cells = (props) => {
 		</div>
 		);
 }
-	//type: primary warn default
-	//state: disabled
-	//visual plain
-	//mini
+
 Cells.propTypes = {
 	className: React.PropTypes.string,
 	title: React.PropTypes.string,

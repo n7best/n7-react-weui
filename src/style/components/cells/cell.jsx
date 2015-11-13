@@ -31,7 +31,7 @@ Cell.propTypes = {
 
 Cell.defaultProps = {
 	className: '',
-	link: 'javascript:;'
+	link: null,
 };
 
 export default Cell;

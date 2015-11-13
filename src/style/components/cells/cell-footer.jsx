@@ -3,7 +3,7 @@ import style from './style';
 
 
 const CellFooter = (props) => {
-	let className = 'weui_cell_hd';
+	let className = 'weui_cell_ft';
 	
 	if(props.className) className += ` ${props.className}`;
 	if(props.primary) className += ' weui_cell_primary';
