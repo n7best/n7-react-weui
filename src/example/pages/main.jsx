@@ -1,5 +1,5 @@
 import React from 'react';
-import Cells from '../../style/components/cells';
+import Cells from '../../style/components/cells/cells';
 import Cell from '../../style/components/cells/cell';
 import CellHeader from '../../style/components/cells/cell-header';
 import CellBody from '../../style/components/cells/cell-body';
