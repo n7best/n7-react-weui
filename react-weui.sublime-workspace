@@ -1,0 +1,1847 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ra",
+				"RadioCells"
+			],
+			[
+				"ex",
+				"export	(radio-cells.jsx)"
+			],
+			[
+				"h",
+				"handleClick"
+			],
+			[
+				"Rad",
+				"RadioCell	(radio-cell.jsx)"
+			],
+			[
+				"han",
+				"handleInputClick"
+			],
+			[
+				"Rea",
+				"React"
+			],
+			[
+				"di",
+				"disabled"
+			],
+			[
+				"render",
+				"renderRadioButtons"
+			],
+			[
+				"Reac",
+				"React.Component	Component Template (ES2015)"
+			],
+			[
+				"Re",
+				"React"
+			],
+			[
+				"shor",
+				"shortnameToUnicode〔function〕"
+			],
+			[
+				"edit",
+				"editColumn"
+			],
+			[
+				"tr",
+				"transactions"
+			],
+			[
+				"get",
+				"getTransactionByUser〔function〕"
+			],
+			[
+				"T",
+				"TransactionSearch"
+			],
+			[
+				"Page",
+				"PageButton"
+			],
+			[
+				"rcc",
+				"rcc	React: legacy component"
+			],
+			[
+				"cells",
+				"cellsTitle"
+			],
+			[
+				"C",
+				"CellsTitle"
+			],
+			[
+				"def",
+				"default	(index.jsx)"
+			],
+			[
+				"export",
+				"export	(index.jsx)"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"r",
+				"rcc	React: legacy component"
+			],
+			[
+				"bs",
+				"bs3-container	bs3-container"
+			],
+			[
+				"store",
+				"src/js/mixins/StoreWatchMixin.js"
+			],
+			[
+				"Store",
+				"StoreWatchMixin"
+			],
+			[
+				"Cata",
+				"CatalogDetail	(app.js)"
+			],
+			[
+				"desc",
+				"description	(app-store.js)"
+			],
+			[
+				"getCart",
+				"getCartTotals	(app-store.js)"
+			],
+			[
+				"Cart",
+				"CartSummary"
+			],
+			[
+				"cart",
+				"cartItems"
+			],
+			[
+				"addC",
+				"addChangeListener	(app-store.js)"
+			],
+			[
+				"Catalog",
+				"CatalogItem"
+			],
+			[
+				"_car",
+				"_cartTotals"
+			],
+			[
+				"ac",
+				"actionType"
+			],
+			[
+				"D",
+				"DECREASE_ITEM	(app-constants.js)"
+			],
+			[
+				"exp",
+				"export	(app.js)"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"priz",
+				"prizes"
+			],
+			[
+				"prize",
+				"prizeid"
+			],
+			[
+				"ProjectH",
+				"ProjectHomeCtrl@newproject"
+			],
+			[
+				"input",
+				"inputn	input - number"
+			],
+			[
+				"ngre",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"bsc",
+				"bs3-col:3	bs3-col-3"
+			],
+			[
+				"j",
+				"json_encode	(Player.php)"
+			],
+			[
+				"appSt",
+				"appStoreInstance"
+			],
+			[
+				"app",
+				"appStoreInstance"
+			],
+			[
+				"ext",
+				"extends"
+			],
+			[
+				"Eve",
+				"EventEmitter"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"props",
+				"props	React: this.props."
+			],
+			[
+				"sst",
+				"sst	React: this.setState({ ... })"
+			],
+			[
+				"fdn",
+				"fdn	React: React.findDOMNode(...)"
+			],
+			[
+				"scrip",
+				"script	<script>"
+			],
+			[
+				"br",
+				"browerify"
+			],
+			[
+				"req",
+				"require〔function〕"
+			],
+			[
+				"user",
+				"user	var"
+			],
+			[
+				"check",
+				"checkTimebase〔function〕"
+			],
+			[
+				"chk",
+				"checkLimitplay〔function〕"
+			],
+			[
+				"Proj",
+				"ProjectStatus"
+			],
+			[
+				"sho",
+				"shortcode"
+			],
+			[
+				"cust",
+				"customize	(home.blade.php)"
+			],
+			[
+				"custom",
+				"customize"
+			],
+			[
+				"Qr",
+				"QRCodeGen"
+			],
+			[
+				"blo",
+				"blockradius	(home.blade.php)"
+			],
+			[
+				"cus",
+				"customize"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"imgS",
+				"imgSelected"
+			],
+			[
+				"up",
+				"uploading"
+			],
+			[
+				"Upl",
+				"UploadCtrl"
+			],
+			[
+				"loa",
+				"loadingprc	(upload.js)"
+			],
+			[
+				"progress",
+				"progressPercentage"
+			],
+			[
+				"Up",
+				"UploadCtrl"
+			],
+			[
+				"Uplo",
+				"UploadCtrl	(home.blade.php)"
+			],
+			[
+				"Upload",
+				"UploadController	(upload.js)"
+			],
+			[
+				"QR",
+				"QRCodeGen"
+			],
+			[
+				"uni",
+				"unique"
+			],
+			[
+				"an",
+				"analytics"
+			],
+			[
+				"arr",
+				"arrary"
+			],
+			[
+				"ng-h",
+				"ng-href	AngularJS"
+			],
+			[
+				"request",
+				"requestDownload	(main.js)"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"per",
+				"percentage"
+			],
+			[
+				"$route",
+				"$routeProvider"
+			],
+			[
+				"country",
+				"countryTable	(main.js)"
+			],
+			[
+				"coun",
+				"countrydata"
+			],
+			[
+				"gets",
+				"getScansovertimeData"
+			],
+			[
+				"getC",
+				"getChartDayDataByProject"
+			],
+			[
+				"ser",
+				"series"
+			],
+			[
+				"tem",
+				"tempAry"
+			],
+			[
+				"chart",
+				"chartdata"
+			],
+			[
+				"total",
+				"totalCountry	(main.js)"
+			],
+			[
+				"obj",
+				"objlength"
+			],
+			[
+				"section",
+				"section"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"$rou",
+				"$routeParams"
+			],
+			[
+				"getscan",
+				"getScanAndUniqueByProject($pjid)	mixed"
+			],
+			[
+				"fun",
+				"fun	PHP: function definition"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"proj",
+				"projectsvm"
+			],
+			[
+				"Projects",
+				"ProjectsCtrl	(ProjectsCtrl.php)"
+			],
+			[
+				"noC",
+				"noCaptchaProvider"
+			],
+			[
+				"$inter",
+				"$interpolateProvider"
+			],
+			[
+				"ma",
+				"mainConfig"
+			],
+			[
+				"err",
+				"errormessage"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"Reg",
+				"Register	(sidebar.blade.php)"
+			],
+			[
+				"Q",
+				"QRCodeGen"
+			],
+			[
+				"$root",
+				"$rootScope"
+			],
+			[
+				"ng-d",
+				"ng-disabled	AngularJS"
+			],
+			[
+				"QRC",
+				"QRCodeGenController"
+			],
+			[
+				"urls",
+				"urlstr"
+			],
+			[
+				"__con",
+				"__construct〔function〕"
+			],
+			[
+				"Po",
+				"Projects	(QRGenCtrl.php)"
+			],
+			[
+				"curre",
+				"current_link_id"
+			],
+			[
+				"QRc",
+				"QRCodeCreated〔namespace〕"
+			],
+			[
+				"dta",
+				"data"
+			],
+			[
+				"base",
+				"baseurl"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"L",
+				"LinkCreated〔namespace〕"
+			],
+			[
+				"P",
+				"Projects"
+			],
+			[
+				"pub",
+				"public	(QRGenCtrl.php)"
+			],
+			[
+				"publ",
+				"pubilicty	(QRGenCtrl.php)"
+			],
+			[
+				"publi",
+				"pubilicty"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"max",
+				"maxByte"
+			],
+			[
+				"Emai",
+				"EmailGen"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/style/components/cells/cells.jsx",
+			"settings":
+			{
+				"buffer_size": 1031,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "ssj",
+		"selected_items":
+		[
+			[
+				"ssj",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ssba",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ssbabel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"ssre",
+				"Set Syntax: React Templates"
+			],
+			[
+				"ssb",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"ssscs",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssbl",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sscs",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"ss",
+				"Set Syntax: PHP"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"formatp",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"form",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"fo",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"FORMP",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"fophp",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"func",
+				"Snippet: function …"
+			],
+			[
+				"forphp",
+				"CodeFormatter: Format as PHP Syntax"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"gitad",
+				"Git: Add..."
+			],
+			[
+				"new file",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"snip fun",
+				"Snippet: function …"
+			],
+			[
+				"snippetclass",
+				"Snippet: Class"
+			],
+			[
+				"forh",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"ssl",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"ssla",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"for",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"sslar",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"file:se",
+				"File: Search Files"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"git add .",
+				"Git: Add..."
+			],
+			[
+				"ssp",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"sspl",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"ssjas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sublint",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"sub",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"git:a",
+				"Git: Add..."
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git: add",
+				"Git: Add..."
+			],
+			[
+				"git:add",
+				"Git: Add..."
+			],
+			[
+				"pakc",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: en",
+				"Package Control: Enable Package"
+			],
+			[
+				"package Control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/n7best/web-dev/react-weui",
+		"/Users/n7best/web-dev/react-weui/src",
+		"/Users/n7best/web-dev/react-weui/src/style",
+		"/Users/n7best/web-dev/react-weui/src/style/components",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells"
+	],
+	"file_history":
+	[
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/radio-cell.jsx",
+		"/Users/n7best/web-dev/react-weui/src/example/pages/main.jsx",
+		"/Users/n7best/web-dev/react-weui/webpack.production.config.js",
+		"/Users/n7best/web-dev/react-weui/package.json",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/index.jsx",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/radio-cells.jsx",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/cells.jsx",
+		"/Users/n7best/web-dev/react-weui/src/style/components/utils/events.jsx",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/weui_form/weui_form_common.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/weui_form/weui_select.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/weui_form/weui_select_after.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/weui_form/weui_select_before.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/weui_form/weui_vcode.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/weui_form.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/base/fn.less",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/dev/weui/src/style/icon/weui_font.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/weui_check/weui_check_common.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/weui_check/weui_checkbox.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/weui_check/weui_radio.less",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/dev/weui/src/style/widget/weui_cell/weui_check.less",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/.env",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Providers/HelperServiceProvider.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Http/routes.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/User.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/composer.json",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/resources/views/legal/terms.blade.php",
+		"/Users/n7best/Dropbox (愿景-Design)/project/locallaravel/instantwin/instantwin.sublime-project",
+		"/private/var/folders/gj/88_32qj57rg7v4vcp9g3_f000000gn/T/06d09a3f-0378-456e-9bfa-7fbf522bc96b/home/forge/default/.env copy",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/dev/weui/src/style/base/fn.less",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/dev/weui/src/style/base/mixin/setArrow.less",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/dev/weui/src/style/widget/weui_cell/weui_check/weui_check_common.less",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/dev/weui/src/style/widget/weui_cell/weui_switch.less",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/dev/weui/src/style/widget/weui_cell/weui_form.less",
+		"/Users/n7best/web-dev/react-weui/src/example/app-template.js",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/cell.jsx",
+		"/Users/n7best/web-dev/react-weui/src/example/components/page-header.jsx",
+		"/Users/n7best/web-dev/react-weui/src/example/pages/page-button.jsx",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/style.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/button/style.less",
+		"/Users/n7best/web-dev/react-weui/src/example/components/pageheader.jsx",
+		"/Users/n7best/web-dev/react-weui/src/example/components/page.jsx",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/cell-header.jsx",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/cell-footer.jsx",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cells/cell-body.jsx",
+		"/Users/n7best/web-dev/react-weui/dist/index.html",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cell/cells-title.jsx",
+		"/Users/n7best/web-dev/react-weui/src/style/components/app/index.jsx",
+		"/Users/n7best/web-dev/react-weui/src/example/index.js",
+		"/Users/n7best/web-dev/react-weui/webpack.config.js",
+		"/Users/n7best/web-dev/react-weui/src/style/components/cell/weui_access.less",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/dev/weui/src/style/widget/weui_cell/weui_cell_global.less",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/dev/weui/src/style/widget/weui_cell/weui_access.less",
+		"/Users/n7best/web-dev/react-weui/src/style/components/button/index.jsx",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/User/JavaScript (Babel).sublime-settings",
+		"/Users/n7best/web-dev/react-weui/src/components/button/weui_btn_primary.less",
+		"/Users/n7best/web-dev/react-weui/src/components/button/weui_btn_plain.less",
+		"/Users/n7best/web-dev/react-weui/src/components/button/weui_btn_warn.less",
+		"/Users/n7best/web-dev/react-weui/src/components/button/weui_btn_global.less",
+		"/Users/n7best/web-dev/react-weui/src/components/button/weui_btn_disabled.less",
+		"/Users/n7best/web-dev/react-weui/src/components/button/weui_btn_default.less",
+		"/Users/n7best/web-dev/react-weui/src/components/app/style.less",
+		"/Users/n7best/web-dev/react-weui/README.md",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/n7best/web-dev/reactwebpack-test/src/js/components/cart/app-cart-item.jsx",
+		"/Users/n7best/web-dev/reactwebpack-test/src/js/components/cart/app-cart.js",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/LiveStyle/LiveStyle.sublime-settings",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/FuzzyFilePath/FuzzyFilePath.sublime-settings",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/User/FuzzyFilePath.sublime-settings",
+		"/Users/n7best/web-dev/reactwebpack-test/node_modules/tapable/test/applyPluginsParallelBailResultTest.js",
+		"/Users/n7best/web-dev/reactwebpack-test/src/js/components/app-cart.js",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/n7best/Dropbox (愿景-Design)/project/reactwebpack-test/app/component.jsx",
+		"/Users/n7best/Dropbox (愿景-Design)/project/reactwebpack-test/app/main.js",
+		"/Users/n7best/Dropbox (愿景-Design)/project/reactwebpack-test/build/index.html",
+		"/Users/n7best/Dropbox (愿景-Design)/project/reactwebpack-test/webpack.config.js",
+		"/Users/n7best/Dropbox (愿景-Design)/project/reactwebpack-test/package.json",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/User/reg_replace.sublime-settings",
+		"/Users/n7best/Dropbox (愿景-Design)/project/reactwebpack-test/src/app/main.js",
+		"/Users/n7best/Dropbox (愿景-Design)/project/reactwebpack-test/src/build/index.html",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/app.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/header/app-header.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/catalog/app-addtocart.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/app-template.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/header/app-cartsummary.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/catalog/app-catalogitem.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/app-addtocart.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/app-decreaseitem.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/app-increaseitem.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/app-removefromcart.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/stores/flux-store.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/constants/app-constants.js",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/src/js/components/app.jsx",
+		"/Users/n7best/Dropbox (愿景-Design)/weui/react/main.js",
+		"/Users/n7best/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/n7best/.zshrc",
+		"/Users/n7best/Downloads/dracula-theme-master/zsh/dracula.zsh-theme",
+		"/Users/n7best/Desktop/tstest/test1.ts",
+		"/Users/n7best/Desktop/tstest/test1.js",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Http/Controllers/socialCtrl.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/config/app.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/vendor/liaol/socialite-cn/src/Providers/WeixinProvider.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/resources/views/new/options/layout.blade.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Http/Requests/NewProjectRequest.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Games.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/database/migrations/2015_02_18_015824_createPrizesTable.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/vendor/liaol/socialite-cn/src/Providers/WeixinWebProvider.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Http/Middleware/Authenticate.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Http/Controllers/Controller.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Providers/AppServiceProvider.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Http/Controllers/logviewCtrl.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Http/Controllers/AdminController.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Providers/EventServiceProvider.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Http/Middleware/roleCheck.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Http/Controllers/GamesRollCtrl.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Handlers/Events/CheckAndDeductPlayAmount.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Services/ProjectStatus.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Events/NewRollCreated.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/app/Handlers/Events/DeductUserMontlyCredit.php",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/.gitignore",
+		"/Users/n7best/Dropbox/project/locallaravel/instantwin/bootstrap/cache/.gitignore",
+		"/Users/n7best/Dropbox/project/locallaravel/qrcode/resources/views/page/projects.blade.php",
+		"/Users/n7best/Dropbox/project/locallaravel/qrcode/public/assets/js/ng-ctrls/project.js",
+		"/Users/n7best/Dropbox/project/locallaravel/qrcode/app/Http/Controllers/QRGenCtrl.php",
+		"/Users/n7best/Dropbox/project/locallaravel/qrcode/app/QRCode.php",
+		"/Users/n7best/Dropbox/project/locallaravel/qrcode/.gitignore",
+		"/Users/n7best/Dropbox/project/locallaravel/qrcode/public/assets/js/angularjs-color-picker.min.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/n7best/Dropbox/project/locallaravel/instantwin/",
+			"/Users/n7best/Dropbox/project/locallaravel/instantwin/vendor/yajra/laravel-datatables-oracle/src",
+			"/Users/n7best/Dropbox/project/locallaravel/instantwin/resources/views",
+			"<project>",
+			"new",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Cells",
+			"./../style/components/c",
+			"RadioCells",
+			"label",
+			"Cell",
+			"PageButton",
+			"App",
+			"Header",
+			"CellHeader",
+			"Header",
+			"Body",
+			"div",
+			"Header",
+			"div",
+			"header",
+			"cellhd",
+			"cellIcon",
+			"title",
+			"Cells",
+			"cells",
+			"Cells",
+			"Title",
+			"Cell",
+			"Button",
+			"button",
+			"Button",
+			"div",
+			"id",
+			"val",
+			"10",
+			"2",
+			"9",
+			"3",
+			"ctStatistic",
+			"data",
+			"orgData",
+			"Location",
+			"handler",
+			"Locations",
+			"Catalog",
+			"AppStore",
+			"increaseItem",
+			"IncreaseItem",
+			"increaseItem",
+			"IncreaseItem",
+			"RemoveFromCart",
+			"AddToCart",
+			"h1",
+			"emmitChange",
+			"let",
+			"ITEM",
+			"item",
+			"browerify",
+			"ZSH_THEME",
+			"google",
+			"Google",
+			"google",
+			"Google",
+			"Facebook",
+			"facebook",
+			"Facebook",
+			"enableFacebook",
+			"Provider'",
+			"'Illuminate\\",
+			"'",
+			"'Illuminate\\",
+			"person",
+			"customize",
+			"input",
+			"QRCodeGenController",
+			"inputColor",
+			"BlockRadius",
+			"SMS-message",
+			"SMS-number",
+			"modalFAQ",
+			"$color",
+			"$y2",
+			"$x2",
+			"$y1",
+			"$x1",
+			"$im",
+			"im",
+			"langs",
+			"trans",
+			"lang",
+			"pm-services-tab-system-container-arrow",
+			"pm-boxed-mode",
+			"box",
+			"localHostForgetLocation",
+			"setIp",
+			"setLocation",
+			"44",
+			"Projects",
+			"small",
+			"downloadblock\"",
+			"button",
+			"required",
+			"color",
+			"$interpolateProvider",
+			"{{",
+			"<%",
+			"downlaodblock",
+			"div",
+			"30",
+			"3",
+			"QRPreview",
+			"h2",
+			"}}",
+			"{{",
+			"}}",
+			"{{",
+			"hour",
+			"Hour",
+			"day",
+			"Days",
+			"output",
+			"a",
+			"pj",
+			"myDropdown",
+			"a",
+			"$scope",
+			"statsvm",
+			"xs-2",
+			"6",
+			"col-md-3",
+			"rojects",
+			"Main",
+			"preview"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"%>",
+			"<%",
+			"response()->json(['errors'=>[$1]],$2);",
+			" ",
+			"",
+			":$1",
+			"{!! URL::asset('favicon$1') !!}",
+			"fw",
+			"href=\"{!! URL::asset('$1') !!}\"",
+			"src=\"{!! URL::asset('$1') !!}\"",
+			"temp + '个怪物在' + initialCDtime + '秒后开始消失'",
+			"steam"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/style/components/cells/cells.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 242.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "react-weui.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".env",
+				".env"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"user",
+				"app/Http/Controllers/UserSettings.php"
+			],
+			[
+				"app.js",
+				"src/js/components/app.js"
+			],
+			[
+				"app",
+				"node_modules/tapable/test/applyPluginsParallelBailResultTest.js"
+			],
+			[
+				"cata",
+				"src/js/components/app-catalog.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"inst",
+				"public/js/instantwin.js"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			],
+			[
+				"newq",
+				"app/Http/Requests/NewProjectRequest.php"
+			],
+			[
+				"weixinweb",
+				"vendor/liaol/socialite-cn/src/Providers/WeixinWebProvider.php"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				"weixin",
+				"vendor/liaol/socialite-cn/src/Providers/WeixinProvider.php"
+			],
+			[
+				"com",
+				"composer.json"
+			],
+			[
+				"r",
+				"app/Http/routes.php"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"short",
+				"app/Shortcode.php"
+			],
+			[
+				"qr",
+				"app/QRCode.php"
+			],
+			[
+				"home",
+				"resources/views/page/home.blade.php"
+			],
+			[
+				"main.css",
+				"public/assets/css/main.css"
+			],
+			[
+				"qrc",
+				"vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/QrCode.php"
+			],
+			[
+				"side",
+				"resources/views/sidebar.blade.php"
+			],
+			[
+				"upload",
+				"public/assets/js/ng-ctrls/upload.js"
+			],
+			[
+				"layou",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"la",
+				"node_modules/laravel-elixir/node_modules/browserify/node_modules/JSONStream/LICENSE.APACHE2"
+			],
+			[
+				"qrg",
+				"app/Http/Controllers/QRGenCtrl.php"
+			],
+			[
+				"lay",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"c",
+				"composer.json"
+			],
+			[
+				"proj",
+				"app/Projects.php"
+			],
+			[
+				"proje",
+				"app/Http/Controllers/ProjectsCtrl.php"
+			],
+			[
+				"ana",
+				"app/Analytics.php"
+			],
+			[
+				"angel",
+				"resources/lang/ch/angel.php"
+			],
+			[
+				"u",
+				"app/User.php"
+			],
+			[
+				"main.js",
+				"js/main.js"
+			],
+			[
+				"redeem",
+				"resources/views/redeem.blade.php"
+			],
+			[
+				"ange",
+				"resources/lang/ch/angel.php"
+			],
+			[
+				"compo",
+				"composer.json"
+			],
+			[
+				"vote",
+				"app/VoteLog.php"
+			],
+			[
+				"screen",
+				"public/css/screen.css"
+			],
+			[
+				"style",
+				"vendor/phpspec/php-diff/example/styles.css"
+			],
+			[
+				"projec",
+				"resources/views/page/projects.blade.php"
+			],
+			[
+				"aut",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"",
+				"app/Http/Controllers/QRGenCtrl.php"
+			],
+			[
+				"stat",
+				"resources/views/page/statistic.blade.php"
+			],
+			[
+				"qrgenc",
+				"app/Http/Controllers/QRGenCtrl.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"projects",
+				"resources/views/page/projects.blade.php"
+			],
+			[
+				"main",
+				"public/assets/css/main.css"
+			],
+			[
+				"project",
+				"resources/views/page/projects.blade.php"
+			],
+			[
+				"page",
+				"app/Http/Controllers/PageDisplayCtrl.php"
+			],
+			[
+				"mianj",
+				"public/assets/js/main.js"
+			],
+			[
+				"auth",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"s",
+				"app/Shortcode.php"
+			],
+			[
+				"mai",
+				"public/assets/js/main.js"
+			],
+			[
+				"he",
+				"resources/views/header.blade.php"
+			],
+			[
+				"authc",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"header",
+				"resources/views/header.blade.php"
+			],
+			[
+				"shor",
+				"app/Shortcode.php"
+			],
+			[
+				"link",
+				"app/Link.php"
+			],
+			[
+				"eventpr",
+				"app/Providers/EventServiceProvider.php"
+			],
+			[
+				"sho",
+				"app/Shortcode.php"
+			],
+			[
+				"p",
+				"app/Projects.php"
+			],
+			[
+				"pro",
+				"app/Projects.php"
+			],
+			[
+				".evn",
+				".env"
+			],
+			[
+				"cont",
+				"public/js/controller.js"
+			],
+			[
+				"use",
+				"resources/views/userstatus.blade.php"
+			],
+			[
+				"sign",
+				"resources/views/signup.blade.php"
+			],
+			[
+				"status",
+				"resources/views/userstatus.blade.php"
+			],
+			[
+				"scree",
+				"public/css/screen.css"
+			],
+			[
+				"soc",
+				"app/Http/Controllers/socialCtrl.php"
+			],
+			[
+				"ser",
+				"config/services.php"
+			],
+			[
+				"con",
+				"public/js/controller.js"
+			],
+			[
+				"op",
+				"public/js/options.js"
+			],
+			[
+				"prize",
+				"app/prize.php"
+			],
+			[
+				"create",
+				"database/migrations/2015_09_10_223350_create_log_db.php"
+			],
+			[
+				"create_priz",
+				"database/migrations/2015_09_16_022918_create_prize_db.php"
+			],
+			[
+				"footer",
+				"resources/views/footer.blade.php"
+			],
+			[
+				"soci",
+				"app/Http/Controllers/socialCtrl.php"
+			],
+			[
+				"servic",
+				"config/services.php"
+			],
+			[
+				"social",
+				"app/Http/Controllers/socialCtrl.php"
+			],
+			[
+				"approval",
+				"resources/views/waitingapprove.blade.php"
+			],
+			[
+				"drop",
+				"public/js/lib/dropzone.js"
+			],
+			[
+				"ro",
+				"app/Http/routes.php"
+			],
+			[
+				"scre",
+				"public/css/screen.css"
+			],
+			[
+				"create_log",
+				"database/migrations/2015_09_10_223350_create_log_db.php"
+			],
+			[
+				"co",
+				"public/js/controller.js"
+			],
+			[
+				"contr",
+				"public/js/controller.js"
+			],
+			[
+				"head",
+				"resources/views/header.blade.php"
+			],
+			[
+				"hea",
+				"resources/views/header.blade.php"
+			],
+			[
+				"opt",
+				"public/js/options.js"
+			],
+			[
+				"layo",
+				"resources/views/layout.blade.php"
+			],
+			[
+				"responsef",
+				"vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php"
+			],
+			[
+				"option",
+				"public/js/options.js"
+			],
+			[
+				"socialitefactory",
+				"vendor/laravel/socialite/src/Contracts/Factory.php"
+			],
+			[
+				"socialitefac",
+				"vendor/laravel/socialite/src/Contracts/Factory.php"
+			],
+			[
+				"optio",
+				"public/js/options.js"
+			],
+			[
+				"urlsh",
+				"app/UrlShorterner.php"
+			],
+			[
+				"displayp",
+				"app/Http/Controllers/DisplayProject.php"
+			],
+			[
+				"dash",
+				"resources/views/projecthome/dash.blade.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"login",
+				"resources/views/auth/login.blade.php"
+			],
+			[
+				"reset",
+				"resources/views/auth/reset.blade.php"
+			],
+			[
+				"settings",
+				"resources/views/projecthome/settings.blade.php"
+			],
+			[
+				"insantw",
+				"public/js/instantwin.js"
+			],
+			[
+				"angular",
+				"public/js/angular-daterangepicker.min.js"
+			],
+			[
+				"date",
+				"public/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"
+			],
+			[
+				"mas",
+				"resources/views/master.blade.php"
+			],
+			[
+				"master",
+				"resources/views/master.blade.php"
+			],
+			[
+				"instant",
+				"public/js/instantwin.js"
+			],
+			[
+				"response",
+				"vendor/laravel/framework/src/Illuminate/Http/Response.php"
+			],
+			[
+				"users",
+				"app/Http/Controllers/UserSettings.php"
+			],
+			[
+				"wid",
+				"public/assets/embed/widget.css"
+			],
+			[
+				"pages.",
+				"public/pages/css/pages.css"
+			],
+			[
+				"general",
+				"resources/views/user/dashpart/general.blade.php"
+			],
+			[
+				"share",
+				"resources/views/projecthome/share.blade.php"
+			],
+			[
+				"widget",
+				"public/assets/embed/widget.css"
+			],
+			[
+				"g",
+				"gulpfile.js"
+			],
+			[
+				"wel",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"tim",
+				"public/assets/plugins/jquery-timezonepicker/timezone-picker.js"
+			],
+			[
+				"wiz",
+				"resources/views/new/wizard.blade.php"
+			],
+			[
+				"timezone.f",
+				"public/assets/plugins/jquery-timezonepicker/timezones.full.js"
+			],
+			[
+				"time",
+				"public/assets/plugins/jquery-timezonepicker/timezones.js"
+			],
+			[
+				"root",
+				"app/Http/Controllers/rootCtrl.php"
+			],
+			[
+				"fortun",
+				"resources/views/fortunewheel/displayJSv1.blade.php"
+			],
+			[
+				"glup",
+				"gulpfile.js"
+			],
+			[
+				"bootstrap",
+				"public/assets/plugins/boostrapv3/css/bootstrap.css"
+			],
+			[
+				"bootstrap.css",
+				"public/assets/plugins/boostrapv3/css/bootstrap.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

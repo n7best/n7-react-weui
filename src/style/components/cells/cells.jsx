@@ -10,6 +10,8 @@ const Cells = (props) => {
 	if(props.split) className += ' weui_cell_split';
 	if(props.access) className += ' weui_cells_access';
 	if(props.radio) className += ' weui_cells_radio';
+	if(props.checkbox) className += ' weui_cells_checkbox';
+	if(props.form) className += ' weui_cells_form';
 
 	let cellsTitle;
 	if(props.title !== null) {
@@ -33,7 +35,9 @@ Cells.propTypes = {
 	title: React.PropTypes.string,
 	split: React.PropTypes.bool,
 	access: React.PropTypes.bool,
-	radio: React.PropTypes.bool
+	radio: React.PropTypes.bool,
+	checkbox: React.PropTypes.bool,
+	form: React.PropTypes.bool,
 };
 
 Cells.defaultProps = {
@@ -42,6 +46,8 @@ Cells.defaultProps = {
 	split: false,
 	access: false,
 	radio: false,
+	checkbox: false,
+	form: false,
 };
 
 export default Cells;
