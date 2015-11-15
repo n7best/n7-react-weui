@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './style';
 import CellsTitle from './cells-title';
+import CellsTips from './cells-tips';
 
 
 const Cells = (props) => {
@@ -13,12 +14,9 @@ const Cells = (props) => {
 	if(props.checkbox) className += ' weui_cells_checkbox';
 	if(props.form) className += ' weui_cells_form';
 
-	let cellsTitle;
-	if(props.title !== null) {
-		cellsTitle = <CellsTitle>{props.title}</CellsTitle>;
-	} else {
-		cellsTitle = null;
-	}
+	let cellsTitle,cellsTips;
+	if(props.title)cellsTitle = <CellsTitle>{props.title}</CellsTitle>;
+	if(props.tips)cellsTips = <CellsTips>{props.tips}</CellsTips>;
 
 	return (
 		<div>
@@ -26,6 +24,7 @@ const Cells = (props) => {
 			<div className={className}>
 			{props.children}
 			</div>
+			{cellsTips}
 		</div>
 		);
 }
@@ -33,6 +32,7 @@ const Cells = (props) => {
 Cells.propTypes = {
 	className: React.PropTypes.string,
 	title: React.PropTypes.string,
+	tips: React.PropTypes.string,
 	split: React.PropTypes.bool,
 	access: React.PropTypes.bool,
 	radio: React.PropTypes.bool,
@@ -42,7 +42,6 @@ Cells.propTypes = {
 
 Cells.defaultProps = {
 	className: '',
-	title: null,
 	split: false,
 	access: false,
 	radio: false,

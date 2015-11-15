@@ -8,8 +8,9 @@ const Cell = (props) => {
 	let className = 'weui_cell';
 	
 	if(props.className) className += ` ${props.className}`;
-	
-
+	if(props.select || props.selectAfter || props.selectBefore) className+= ' weui_cell_select';
+	if(props.selectAfter) className+=' weui_select_after';
+	if(props.selectBefore) className+= ' weui_select_before';
 
 	if(props.link){
 		return (
@@ -27,11 +28,17 @@ const Cell = (props) => {
 Cell.propTypes = {
 	className: React.PropTypes.string,
 	link: React.PropTypes.string,
+	select: React.PropTypes.bool,
+	selectAfter: React.PropTypes.bool,
+	selectBefore: React.PropTypes.bool,
 };
 
 Cell.defaultProps = {
 	className: '',
 	link: null,
+	select: false,
+	selectAfter: false,
+	selectBefore: false
 };
 
 export default Cell;

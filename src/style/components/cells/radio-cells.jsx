@@ -40,12 +40,9 @@ class RadioCells extends React.Component {
 		if(this.props.split) className += ' weui_cell_split';
 		if(this.props.access) className += ' weui_cells_access';
 
-		let cellsTitle;
-		if(this.props.title !== null) {
-			cellsTitle = <CellsTitle>{this.props.title}</CellsTitle>;
-		} else {
-			cellsTitle = null;
-		}
+		let cellsTitle,cellsTips;
+		if(this.props.title)cellsTitle = <CellsTitle>{this.props.title}</CellsTitle>;
+		if(this.props.tips)celssTips = <CellsTips>{this.props.tips}</CellsTips>;
 		
 		return (
 			<div>
@@ -53,6 +50,7 @@ class RadioCells extends React.Component {
 				<div className={className}>
 				{this.renderRadioCells()}
 				</div>
+				{cellsTips}
 			</div>
 			);
 		
