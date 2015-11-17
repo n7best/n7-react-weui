@@ -19,8 +19,8 @@ class CheckboxCell extends React.Component {
 
 	handleClick(e){
 		events.pauseEvent(event);
-		if(!this.props.disabled){
-			this.handleChange(event);
+		if(!this.props.disabled && this.onClick){
+			this.onClick(event,this);
 		}
 	}
 
@@ -30,11 +30,9 @@ class CheckboxCell extends React.Component {
 
 	handleChange(e){
 		console.log(e);
-		if(e.type != 'react-click'){
-			this.setState({checked: !this.state.checked},()=>{
-				if (this.props.onChange) this.props.onChange(event,this);
-			})
-		}
+		this.setState({checked: !this.state.checked},()=>{
+			if (this.props.onChange) this.props.onChange(e,this);
+		})
 		
 	}
 
