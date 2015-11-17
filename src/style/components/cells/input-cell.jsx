@@ -24,11 +24,13 @@ class InputCell extends React.Component {
     renderHeader(){
     	if(!this.props.header){
     		let labelClassName = "weui_label";
-			return (
-				<CellHeader>
-					<label className={labelClassName}>{this.props.label}</label>
-				</CellHeader>
-				);
+    		if(this.props.label){
+				return (
+					<CellHeader>
+						<label className={labelClassName}>{this.props.label}</label>
+					</CellHeader>
+					);
+			}
     	}else{
     		return (
 			<CellHeader>

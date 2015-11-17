@@ -166,7 +166,7 @@ const PageCell = (props) => {
 				<Cells title="表单报错" form>
 					<InputCell name="textbank2" type="number" id="text5" label="银行卡" placeholder="请输入银行卡号" error/>
 					<InputCell name="textdate" type="date" id="text6" label="日期" />
-					<InputCell name="textdatetime" type="datetime-local" id="text6" label="时间" />
+					<InputCell name="textdatetime" type="datetime-local" id="text7" label="时间" />
 				</Cells>
 				<Cells title="选择" split>
 					<InputCell header={select1} name="selecttext" type="text" id="selecttext" placeholder="请输入号码" selectBefore/>

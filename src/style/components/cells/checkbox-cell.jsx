@@ -59,7 +59,7 @@ class CheckboxCell extends React.Component {
 					<i className={iconClassName}></i>
 				</CellHeader>
 				<CellBody>
-					<p>{this.props.label}</p>
+					<p style={this.props.style}>{this.props.label}</p>
 				</CellBody>
 			</label>
 		);
