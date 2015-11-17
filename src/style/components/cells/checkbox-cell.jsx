@@ -29,7 +29,6 @@ class CheckboxCell extends React.Component {
 	}
 
 	handleChange(e){
-		console.log(e);
 		this.setState({checked: !this.state.checked},()=>{
 			if (this.props.onChange) this.props.onChange(e,this);
 		})
