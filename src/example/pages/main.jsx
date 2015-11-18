@@ -55,6 +55,20 @@ const App = (props) => {
 					<CellBody>Progress</CellBody>
 					<CellFooter />
 				</Cell>
+				<Cell link="#/message">
+					<CellHeader>
+						<img src="./images/icon_nav_msg.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Msg Page</CellBody>
+					<CellFooter />
+				</Cell>
+				<Cell link="#/article">
+					<CellHeader>
+						<img src="./images/icon_nav_article.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Article Page</CellBody>
+					<CellFooter />
+				</Cell>
 				<Cell link="#/actionsheet">
 					<CellHeader>
 						<img src="./images/icon_nav_actionSheet.png" className="icon_nav" />
@@ -62,6 +76,7 @@ const App = (props) => {
 					<CellBody>Actionsheet</CellBody>
 					<CellFooter />
 				</Cell>
+				
 			</Cells>
 		</Page>
 		);

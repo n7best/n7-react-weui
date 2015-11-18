@@ -1,5 +1,5 @@
 import React from 'react';
-import { createStore } from 'redux'
+import { createStore } from 'redux';
 import Page from '../components/page';
 import InputCell from '../../style/components/cells/input-cell';
 import CheckboxCell from '../../style/components/cells/checkbox-cell';
@@ -49,10 +49,7 @@ function completeTodo(id){
 /*single simple store*/
 let store = createStore(todo,initialState);
 
-
-
 //views
-
 class TodoPage extends React.Component {
     constructor(props) {
         super(props);
@@ -66,11 +63,14 @@ class TodoPage extends React.Component {
         this.completeTodo = this.completeTodo.bind(this);
     }
 	
-    
+    componentDidMount(){
+        store.subscribe(()=>{
+            this.setState({todos:store.getState()});
+        });
+    }
 
     completeTodo(event,todo){
 		store.dispatch(completeTodo(todo.props.dataid));
-		this.setState({todos:store.getState()});
     }
 
     addTodo(event){
@@ -78,14 +78,12 @@ class TodoPage extends React.Component {
     	
     	if(event.key === 'Enter'){
 			store.dispatch(addTodo(text));
-			this.setState({todos:store.getState()});
 			this.refs.todoinput.setState({value:''});
     	}
 		
     }
 	
 	renderTodos(){
-		
     	let todos = this.state.todos.map((todos)=>{
     		let completeStyle = todos.completed ? {
 			color: '#808080',
@@ -93,6 +91,7 @@ class TodoPage extends React.Component {
 			} : null;
 			return <CheckboxCell key={todos.id} dataid={todos.id} style={completeStyle} label={todos.text} checked={todos.completed} onChange={this.completeTodo}/>
     	});
+        
     	return (
 			<Cells title="记事列表" form split checkbox>
 				{todos}

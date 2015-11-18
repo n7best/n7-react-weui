@@ -3,7 +3,7 @@ import style from './style';
 
 const Button = (props) => {
 	let className = 'weui_btn';
-	//es7 const { disabled, plain, mini, type } = props;
+
 	className += props.plain ? ` weui_btn_plain_${props.type}` : ` weui_btn_${props.type}`;
 	if(props.className) className += ` ${props.className}`;
 	if(props.disabled || props.loading) className += ' weui_btn_disabled';
@@ -20,10 +20,7 @@ const Button = (props) => {
 		</a>
 		);
 }
-	//type: primary warn default
-	//state: disabled
-	//visual plain
-	//mini
+
 Button.propTypes = {
 	className: React.PropTypes.string,
 	href: React.PropTypes.string,
