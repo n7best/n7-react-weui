@@ -41,6 +41,20 @@ const App = (props) => {
 					<CellBody>Toast</CellBody>
 					<CellFooter />
 				</Cell>
+				<Cell link="#/dialog">
+					<CellHeader>
+						<img src="./images/icon_nav_dialog.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Dialog</CellBody>
+					<CellFooter />
+				</Cell>
+				<Cell link="#/progress">
+					<CellHeader>
+						<img src="./images/icon_nav_button.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Progress</CellBody>
+					<CellFooter />
+				</Cell>
 			</Cells>
 		</Page>
 		);

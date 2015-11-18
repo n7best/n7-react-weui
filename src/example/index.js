@@ -6,6 +6,8 @@ import Template from './app-template';
 import PageButton from './pages/page-button';
 import PageCell from './pages/page-cell';
 import PageToast from './pages/page-toast';
+import PageDialog from './pages/page-dialog';
+import PageProgress from './pages/page-progress';
 import TodoPage from './pages/page-todo';
 import style from './style';
 
@@ -18,6 +20,8 @@ const WeUI = () => {
         <Route path="cell" component={ PageCell } />
         <Route path="todo" component={ TodoPage } />
         <Route path="toast" component={ PageToast } />
+        <Route path="dialog" component={ PageDialog } />
+        <Route path="progress" component={ PageProgress } />
       </Route>
     </Router>
   );

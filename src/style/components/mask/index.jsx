@@ -6,9 +6,7 @@ import classNames from 'classnames';
 class Mask extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-        	show: this.props.show
-        }
+
     }
 
 
@@ -21,11 +19,12 @@ class Mask extends React.Component {
 			});
 
 		let maskstyle = {
-			display: this.state.show ? 'block' : 'none',
+			display: this.props.show ? 'block' : 'none',
 		};
 		
 		return (
 			<div
+				{...this.props}
 				className={className}
 				style={maskstyle}
 			>
