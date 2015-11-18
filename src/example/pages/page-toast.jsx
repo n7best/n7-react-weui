@@ -19,9 +19,6 @@ const toast2 = {
 class PageToast extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-        	toast:null
-        };
     }
 
 	showToast(toast){
@@ -29,13 +26,6 @@ class PageToast extends React.Component {
 		ReactDOM.unmountComponentAtNode(container);
 		let toastinstance = ReactDOM.render(<Toast show loading={toast.loading} time={toast.time}>{toast.text}</Toast>,container);
 	}
-
-    /*renderToast(){
-    	console.log(this.state.toast);
-		if(this.state.toast !== null){
-			return (<Toast show loading={this.state.toast.loading}>{this.state.toast.text}</Toast>);
-		}
-    }*/
 
     render() {
         return (

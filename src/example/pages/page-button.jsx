@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../style/components/button'
+import Button from '../../style/components/button';
 import Page from '../components/page';
 
 const PageButton = (props) => {
