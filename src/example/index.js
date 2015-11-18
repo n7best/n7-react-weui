@@ -8,6 +8,7 @@ import PageCell from './pages/page-cell';
 import PageToast from './pages/page-toast';
 import PageDialog from './pages/page-dialog';
 import PageProgress from './pages/page-progress';
+import PageActionsheet from './pages/page-actionsheet';
 import TodoPage from './pages/page-todo';
 import style from './style';
 
@@ -22,6 +23,7 @@ const WeUI = () => {
         <Route path="toast" component={ PageToast } />
         <Route path="dialog" component={ PageDialog } />
         <Route path="progress" component={ PageProgress } />
+        <Route path="actionsheet" component={ PageActionsheet } />
       </Route>
     </Router>
   );

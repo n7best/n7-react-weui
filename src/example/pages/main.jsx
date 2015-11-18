@@ -55,6 +55,13 @@ const App = (props) => {
 					<CellBody>Progress</CellBody>
 					<CellFooter />
 				</Cell>
+				<Cell link="#/actionsheet">
+					<CellHeader>
+						<img src="./images/icon_nav_actionSheet.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Actionsheet</CellBody>
+					<CellFooter />
+				</Cell>
 			</Cells>
 		</Page>
 		);

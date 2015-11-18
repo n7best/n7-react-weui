@@ -24,9 +24,11 @@ class PageDialog extends React.Component {
 			{label:"取消", onClick: this.toogleDialog1.bind(this)},
 			{label:"确定",onClick: this.toogleDialog1.bind(this), primary:true}
     	];
+
 		let dialog2action = [
 			{label:"确定",onClick: this.toogleDialog2.bind(this), primary:true}
     	];
+    	
         return (
 	        <Page title="Dialog" className="dialog">
 				<div className="bd spacing">
@@ -47,6 +49,5 @@ class PageDialog extends React.Component {
 		);
     }
 }
-
 
 export default PageDialog;
