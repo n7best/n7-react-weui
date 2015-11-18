@@ -5,6 +5,7 @@ import { Router, Route, IndexRoute } from 'react-router';
 import Template from './app-template';
 import PageButton from './pages/page-button';
 import PageCell from './pages/page-cell';
+import PageToast from './pages/page-toast';
 import TodoPage from './pages/page-todo';
 import style from './style';
 
@@ -16,6 +17,7 @@ const WeUI = () => {
         <Route path="button" component={ PageButton } />
         <Route path="cell" component={ PageCell } />
         <Route path="todo" component={ TodoPage } />
+        <Route path="toast" component={ PageToast } />
       </Route>
     </Router>
   );

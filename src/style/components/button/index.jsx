@@ -11,7 +11,7 @@ const Button = (props) => {
 
 	return (
 		<a 
-		data-weui-component="button"
+		{...props}
 		href={props.href} 
 		className={className}
 		disabled={props.disabled || props.loading}

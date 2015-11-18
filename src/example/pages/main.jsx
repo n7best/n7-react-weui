@@ -34,6 +34,13 @@ const App = (props) => {
 					<CellBody>Cell</CellBody>
 					<CellFooter />
 				</Cell>
+				<Cell link="#/toast">
+					<CellHeader>
+						<img src="./images/icon_nav_toast.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Toast</CellBody>
+					<CellFooter />
+				</Cell>
 			</Cells>
 		</Page>
 		);
