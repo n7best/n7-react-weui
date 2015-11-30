@@ -1,8 +1,8 @@
 {
-  "name": "WeUI-React",
-  "version": "0.1.0",
-  "description": "A minimal webpack/ES6 project template with a spinning black triangle",
-  "main": "src/main.js",
+  "name": "n7-react-weui",
+  "version": "0.1.7",
+  "description": "WeUI with Webpack, Babel, React & LESS.",
+  "main": "./lib",
   "dependencies": {
     "babel-polyfill": "^6.0.16",
     "classnames": "^2.2.0",
@@ -17,6 +17,7 @@
     "babel-loader": "^6.0.1",
     "babel-preset-es2015": "^6.1.4",
     "babel-preset-react": "^6.1.4",
+    "cross-env": "^1.0.4",
     "css-loader": "^0.15.1",
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
@@ -28,8 +29,13 @@
     "webpack-dev-server": "^1.10.1"
   },
   "scripts": {
-    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"
+    "babel": "cross-env NODE_ENV=production babel ./src/style/components --out-dir ./lib",
+    "less": "cpx './src/style/components/**/*.less' ./lib",
+    "clean": "rimraf ./lib",
+    "build": "cross-env NODE_ENV=production npm run babel && npm run less",
+    "prebuild": "npm run clean",
+    "start": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "deploy": "cross-env NODE_ENV=production webpack -p --config webpack.production.config.js"
   },
   "keywords": [
     "webpack",
@@ -39,6 +45,6 @@
     "es6",
     "babel"
   ],
-  "author": "n7best",
+  "author": "n7best <n7best@gmail.com> (http://n7best.com)",
   "license": "MIT"
 }
