@@ -8,4 +8,4 @@ WeUI with Webpack, Babel, React & LESS.
 
 ![](./dist/images/qrcode.png)
 
-[http://n7best.github.io/React-WeUI/](http://n7best.github.io/React-WeUI/)
+[http://n7best.github.io/react-weui/](http://n7best.github.io/react-weui/)
