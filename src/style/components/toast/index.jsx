@@ -16,7 +16,7 @@ class Toast extends React.Component {
     	if(this.props.time){
 	    	this.setState({timeout: setTimeout(()=>{
 				this.setState({ show: false});
-				if(this.onFinish) this.onFinish(this);
+				if(this.props.onFinish) this.props.onFinish(this);
 	    	},this.props.time)})
     	}
     }
