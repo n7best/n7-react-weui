@@ -24,8 +24,12 @@
         this._goto = -1;
         this._eventHandlers = {};
 
-        this.$container = document.querySelector(this._options.container);
+        this.$container = document.querySelector(this._options.container + ' .swipercontainer');
+        this.$nav = document.querySelector(this._options.container + ' .swipernav');
+
         this.$items = this.$container.querySelectorAll(this._options.item);
+        this.$bullets = [];
+
         this.count = this.$items.length;
 
         this._width = this.$container.offsetWidth;
@@ -59,6 +63,10 @@
         Array.prototype.forEach.call(me.$items, function ($item, key) {
             $item.style.width = width + 'px';
             $item.style.height = height + 'px';
+
+            me.$bullets[key] = document.createElement('span');
+            me.$bullets[key].className = 'bullet';
+            me.$nav.appendChild(me.$bullets[key]); 
         });
 
         me._activate(0);
@@ -167,10 +175,17 @@
      */
     SwiperJS.prototype._activate = function (index){
         var clazz = this._options.activeClass;
+
         Array.prototype.forEach.call(this.$items, function ($item, key){
             $item.classList.remove(clazz);
             if (index === key) {
-                $item.classList.add(clazz);
+                $item.classList.add(clazz); 
+            }
+        });
+        Array.prototype.forEach.call(this.$bullets, function ($bullet, key){
+            $bullet.classList.remove(clazz);
+            if (index === key) {
+                $bullet.classList.add(clazz); 
             }
         });
     };

@@ -24,12 +24,14 @@ class Swiper extends React.Component {
     	};
 
 		return (
-			<div className="swiperwrapper">
-			<div className={className} style={style} id={this.props.id}>
-				<div className="swiper">
-				{this.props.children}
+			<div className="swiperwrapper" id={this.props.id}>
+				<div className={className} style={style}>
+					<div className="swiper">
+					{this.props.children}
+					</div>
 				</div>
-			</div>
+				<div className="swipernav">
+				</div>
 			</div>
 			);
     }

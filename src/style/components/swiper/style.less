@@ -16,6 +16,28 @@
     height: 100%;
     overflow: hidden;
     transition: all 0.3s ease;
+
+
+}
+.swipernav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    margin-right: 10px;
+
+    .bullet{
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        background-color: rgba(138, 138, 138, 0.25);
+        display: inline-block;
+        margin: 3px 1px;
+
+        &.active{
+            background-color: @monokaiGreen;
+        }
+    }
 }
 .item {
     height: 100%;

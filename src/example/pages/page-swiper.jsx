@@ -17,6 +17,15 @@ const PageSwiper = (props) => {
 					<SwiperItem>
 						<img src="images/swipe3.jpg" width="100%" />
 					</SwiperItem>
+					<SwiperItem>
+						<img src="images/swipe1.jpg" width="100%" />
+					</SwiperItem>
+					<SwiperItem>
+						<img src="images/swipe2.jpg" width="100%" />
+					</SwiperItem>
+					<SwiperItem>
+						<img src="images/swipe3.jpg" width="100%" />
+					</SwiperItem>
 			</Swiper>
 		</Page>
 		);
