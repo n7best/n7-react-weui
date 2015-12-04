@@ -1,0 +1,45 @@
+@import "../base/fn";
+
+.swiperwrapper {
+    position: relative;
+    padding: 1px 0;
+    background-color: @weuiCellBg;
+    &:before {
+        .setTopLine(@weuiCellBorderColor);
+    }
+    &:after {
+        .setBottomLine(@weuiCellBorderColor);
+    }
+}
+
+.swiper {
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.item {
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    float: left;
+
+    &.active{
+        .animated{
+            animation-fill-mode: both;
+            opacity: 1;
+        }
+    }
+    &:not(.active){
+        .animated{
+            animation: none;
+            opacity: 0;
+        }
+    }
+}
+
+.item{
+    color: @globalTextColor;
+    background-color: @weuiCellBg;
+}

@@ -19,7 +19,7 @@ const App = (props) => {
 					<CellFooter />
 				</Cell>
 			</Cells>
-			<Cells split access className="global_navs" title="组件">
+			<Cells split access className="global_navs" title="官方组件">
 				<Cell link="#/button">
 					<CellHeader>
 						<img src="./images/icon_nav_button.png" className="icon_nav" />
@@ -77,6 +77,15 @@ const App = (props) => {
 					<CellFooter />
 				</Cell>
 				
+			</Cells>
+			<Cells split access className="global_navs" title="第三方组件">
+				<Cell link="#/swiper">
+					<CellHeader>
+						<img src="./images/icon_nav_button.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Swiper</CellBody>
+					<CellFooter />
+				</Cell>
 			</Cells>
 		</Page>
 		);
