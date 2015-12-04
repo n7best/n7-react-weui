@@ -34,6 +34,7 @@
 
         this._width = this.$container.offsetWidth;
         this._height = this.$container.offsetHeight;
+        document.querySelector(this._options.container).style.width = this._width + 'px';
 
         this._init();
         this._bind();
@@ -56,6 +57,7 @@
             w = width * me.count;
             h = height;
         }
+
 
         me.$container.style.width = w + 'px';
         me.$container.style.height = h + 'px';
