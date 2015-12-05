@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../../style/components/button';
-import Page from '../components/page';
+import Page from '../../style/components/page';
 import Actionsheet from '../../style/components/actionsheet';
 
 

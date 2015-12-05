@@ -1,6 +1,6 @@
 import React from 'react';
 import Article from '../../style/components/article';
-import Page from '../components/page';
+import Page from '../../style/components/page';
 
 
 class PageArticle extends React.Component {

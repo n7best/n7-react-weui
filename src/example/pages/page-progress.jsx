@@ -1,6 +1,6 @@
 import React from 'react';
 import Progress from '../../style/components/progress';
-import Page from '../components/page';
+import Page from '../../style/components/page';
 
 class PageProgress extends React.Component {
     constructor(props) {

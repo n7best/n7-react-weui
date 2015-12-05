@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Button from '../../style/components/button'
-import Page from '../components/page';
+import Page from '../../style/components/page';
 import Toast from '../../style/components/toast'
 
 

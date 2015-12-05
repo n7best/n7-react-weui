@@ -12,6 +12,7 @@ import PageMessage from './pages/page-message';
 import PageArticle from './pages/page-article';
 import PageActionsheet from './pages/page-actionsheet';
 import PageSwiper from './pages/page-swiper';
+import PagePtr from './pages/page-ptr';
 import TodoPage from './pages/page-todo';
 import style from './style';
 
@@ -30,6 +31,7 @@ const WeUI = () => {
         <Route path="article" component={ PageArticle } />
         <Route path="actionsheet" component={ PageActionsheet } />
         <Route path="swiper" component={ PageSwiper } />
+        <Route path="ptr" component={ PagePtr } />
       </Route>
     </Router>
   );

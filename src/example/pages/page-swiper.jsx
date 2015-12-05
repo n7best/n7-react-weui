@@ -1,7 +1,7 @@
 import React from 'react';
 import Swiper from '../../style/components/swiper';
 import SwiperItem from '../../style/components/swiper/item';
-import Page from '../components/page';
+import Page from '../../style/components/page';
 
 const PageSwiper = (props) => {
 

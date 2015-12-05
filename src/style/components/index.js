@@ -22,6 +22,7 @@ import Progress from './progress';
 import Toast from './toast';
 import Swiper from './swiper';
 import SwiperItem from './swiper/item';
+import Page from './page';
 
-export default {Swiper, SwiperItem, Toast, Progress, Message, Mask, Dialog, Cells, CellBody, CellFooter, CellHeader, Cell, CellsTips, CellsTitle, CheckboxCell, InputCell, Button, Select, RadioCell, RadioCells, SwitchCell, ButtonArea, Actionsheet, Article}
+export default {Page, Swiper, SwiperItem, Toast, Progress, Message, Mask, Dialog, Cells, CellBody, CellFooter, CellHeader, Cell, CellsTips, CellsTitle, CheckboxCell, InputCell, Button, Select, RadioCell, RadioCells, SwitchCell, ButtonArea, Actionsheet, Article}
 

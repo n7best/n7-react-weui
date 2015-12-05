@@ -12,7 +12,7 @@ import CellFooter from '../../style/components/cells/cell-footer';
 import Button from '../../style/components/button';
 import ButtonArea from '../../style/components/button/button-area';
 import Select from '../../style/components/cells/input-select';
-import Page from '../components/page';
+import Page from '../../style/components/page';
 
 const PageCell = (props) => {
 	

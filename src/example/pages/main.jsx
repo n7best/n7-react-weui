@@ -4,7 +4,7 @@ import Cell from '../../style/components/cells/cell';
 import CellHeader from '../../style/components/cells/cell-header';
 import CellBody from '../../style/components/cells/cell-body';
 import CellFooter from '../../style/components/cells/cell-footer';
-import Page from '../components/page';
+import Page from '../../style/components/page';
 
 const App = (props) => {
 
@@ -84,6 +84,13 @@ const App = (props) => {
 						<img src="./images/icon_nav_button.png" className="icon_nav" />
 					</CellHeader>
 					<CellBody>Swiper</CellBody>
+					<CellFooter />
+				</Cell>
+				<Cell link="#/ptr">
+					<CellHeader>
+						<img src="./images/icon_nav_button.png" className="icon_nav" />
+					</CellHeader>
+					<CellBody>Pull To Refresh</CellBody>
 					<CellFooter />
 				</Cell>
 			</Cells>

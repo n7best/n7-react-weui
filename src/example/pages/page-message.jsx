@@ -1,6 +1,6 @@
 import React from 'react';
 import Message from '../../style/components/message';
-import Page from '../components/page';
+import Page from '../../style/components/page';
 import Actionsheet from '../../style/components/actionsheet';
 
 
