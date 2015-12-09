@@ -1,8 +1,8 @@
 import React from 'react';
-import { shallow,describeWithDOM,mount,spyLifecycle } from 'enzyme';
+import { shallow,describeWithDOM,mount,spyLifecycle, sinon } from 'enzyme';
 import Button from '../index';
 import {expect} from 'chai';
-import sinon from 'sinon';
+
 
 describe('Button', () => {
 
