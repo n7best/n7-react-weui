@@ -11,7 +11,7 @@ import sinon from 'sinon';
 
 describe('Cells', () => {
 
-  it('should render Cells,CellsTips, CellsTitle', () => {
+  it('[JSDOM] should render Cells,CellsTips, CellsTitle', () => {
     const wrapper = mount(
       <Cells title="test1" tips="test2" />
     );
@@ -24,7 +24,7 @@ describe('Cells', () => {
 
 });
 
-describe('Cells Cell combo', () => {
+describe('[JSDOM] Cells Cell combo', () => {
 
   it('should render Cells with Cell with custome class, has body of title and footer of desc', () => {
     const wrapper = mount(
@@ -46,7 +46,7 @@ describe('Cells Cell combo', () => {
     expect(wrapper.find('span.weui_cell_ft').text()).to.equal('desc');
   });
 
-  it('should render 2 cell', () => {
+  it('[JSDOM] should render 2 cell', () => {
     const wrapper = mount(
       <Cells title="test1" split>
         <Cell /><Cell />
@@ -56,7 +56,7 @@ describe('Cells Cell combo', () => {
     expect(wrapper.find('div.weui_cell')).to.have.length(2);
   });
 
-  it('should render 2 link cell', () => {
+  it('[JSDOM] should render 2 link cell', () => {
     const wrapper = mount(
       <Cells title="test1" access>
         <Cell link="test"/><Cell link="test2"/>

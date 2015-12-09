@@ -51,7 +51,7 @@ describe('Button', () => {
     expect(wrapper.hasClass('weui_btn_disabled')).to.be.true;
   });
 
-  describeWithDOM('Button Event Check', () => {
+  describeWithDOM('[JSDOM] Button Event Check', () => {
     it('click events should work', () => {
       const onButtonClick = sinon.spy();
       const wrapper = mount(

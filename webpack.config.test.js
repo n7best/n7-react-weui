@@ -3,6 +3,10 @@ const webpack = require('webpack');
 
 
 module.exports = {
+  output: {
+      path:'./test',
+      filename: 'bundle.js'
+  },
   module: {
     loaders: [
           {
@@ -38,5 +42,6 @@ module.exports = {
     'jsdom': 'window',
     'cheerio': 'window',
     'react/lib/ExecutionEnvironment': true
-  }
+  },
+  debug: true,
 };

@@ -17,14 +17,16 @@ module.exports = function (config) {
     preprocessors: {'tests.webpack.js': ['webpack']},
     webpack: webpackConfig,
     webpackServer: {
-      noInfo: true
+      noInfo: false
     },
     customLaunchers: {
         Chrome_travis_ci: {
             base: 'Chrome',
             flags: ['--no-sandbox']
         }
-    }
+    },
+      colors: true,
+  logLevel: config.LOG_DEBUG
   };
   if (process.env.TRAVIS) {
     configs.browsers = ['Chrome_travis_ci'];
