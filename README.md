@@ -2,6 +2,9 @@
 
 WeUI with Webpack, Babel, React & LESS.
 
+## 使用说明 (编辑中）
+[http://n7best.com/weui](http://n7best.com/weui)
+
 ## 开发
 
 ```
