@@ -4,3 +4,5 @@ node_js:
   - "4.2.1"
 script:
   - npm test
+before_install:
+  - npm install history@1.13.x
