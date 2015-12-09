@@ -11,13 +11,14 @@ module.exports = function (config) {
     plugins: [
       'karma-chrome-launcher',
       'karma-mocha',
-      'karma-webpack'
+      'karma-webpack',
+      'karma-sourcemap-loader'
     ],
     reporters: ['dots'],
-    preprocessors: {'tests.webpack.js': ['webpack']},
+    preprocessors: {'tests.webpack.js': ['webpack','sourcemap']},
     webpack: webpackConfig,
     webpackServer: {
-      noInfo: false
+      noInfo: true
     },
     customLaunchers: {
         Chrome_travis_ci: {
@@ -25,8 +26,13 @@ module.exports = function (config) {
             flags: ['--no-sandbox']
         }
     },
-      colors: true,
-  logLevel: config.LOG_DEBUG
+    colors: true,
+    logLevel: config.LOG_DEBUG,
+    client: {
+      // log console output in our test console
+      captureConsole: true
+    },
+
   };
   if (process.env.TRAVIS) {
     configs.browsers = ['Chrome_travis_ci'];

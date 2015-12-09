@@ -1,12 +1,7 @@
 var path = require('path');
 const webpack = require('webpack');
 
-
 module.exports = {
-  output: {
-      path:'./test',
-      filename: 'bundle.js'
-  },
   module: {
     loaders: [
           {
@@ -43,5 +38,6 @@ module.exports = {
     'cheerio': 'window',
     'react/lib/ExecutionEnvironment': true
   },
+  devtool: 'inline-source-map', // sourcemap support
   debug: true,
 };
