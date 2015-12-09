@@ -1,15 +1,17 @@
 import React from 'react';
 import style from './style';
 import CellsTitle from './cells-title';
+import CellsTips from './cells-tips';
 import RadioCell from './radio-cell';
+import classNames from 'classnames';
 
 class RadioCells extends React.Component {
     constructor(props) {
-        super(props);
-		this.state = {
-			value: this.props.value
-		};
-		
+      super(props);
+			this.state = {
+				value: this.props.value
+			};
+
     }
 
     handleChange(value, event){
@@ -35,25 +37,26 @@ class RadioCells extends React.Component {
     }
 
     render() {
-		let className = "weui_cells weui_cells_radio";
-		if(this.props.className) className += ` ${this.props.className}`;
-		if(this.props.split) className += ' weui_cell_split';
-		if(this.props.access) className += ' weui_cells_access';
+		let className = classNames('weui_cells','weui_cells_radio',{
+			weui_cells_access : this.props.access
+		}, this.props.className);
 
 		let cellsTitle,cellsTips;
 		if(this.props.title)cellsTitle = <CellsTitle>{this.props.title}</CellsTitle>;
-		if(this.props.tips)celssTips = <CellsTips>{this.props.tips}</CellsTips>;
-		
+		if(this.props.tips)cellsTips = <CellsTips>{this.props.tips}</CellsTips>;
+
 		return (
 			<div>
 				{cellsTitle}
-				<div className={className}>
+				<div
+				{...this.props}
+				className={className}>
 				{this.renderRadioCells()}
 				</div>
 				{cellsTips}
 			</div>
 			);
-		
+
     }
 }
 
@@ -65,9 +68,7 @@ RadioCells.propTypes = {
 	value: React.PropTypes.any,
 	onChange: React.PropTypes.func,
 	title: React.PropTypes.string,
-	split: React.PropTypes.bool,
 	access: React.PropTypes.bool,
-	
 };
 
 RadioCells.defaultProps = {

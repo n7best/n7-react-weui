@@ -1,12 +1,11 @@
 import React from 'react';
 import style from './style';
-
+import classNames from 'classnames';
 
 const CellHeader = (props) => {
-	let className = 'weui_cell_hd';
-	
-	if(props.className) className += ` ${props.className}`;
-	if(props.primary) className += ' weui_cell_primary';
+	let className = classNames('weui_cell_hd',{
+		weui_cell_primary: props.primary
+	},props.className);
 
 	return (
 		<span className={className}>

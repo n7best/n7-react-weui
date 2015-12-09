@@ -4,6 +4,7 @@ import CellHeader from './cell-header';
 import CellBody from './cell-body';
 import CellFooter from './cell-footer';
 import events from '../utils/events';
+import classNames from 'classnames';
 
 class RadioCell extends React.Component {
     constructor(props) {
@@ -29,30 +30,26 @@ class RadioCell extends React.Component {
     }
 
     render() {
-
-		let className = "weui_cell weui_check_label";
+    let className = classNames('weui_cell','weui_check_label',this.props.className);
 		let iconClassName = "weui_icon_checked";
 		let inputClassName = "weui_check";
-		if(this.props.className) className+= ` ${this.props.className}`;
 
-		
 		return (
 			<label className={className} for={this.props.id} onClick={this.handleClick}>
 				<CellBody>{this.props.label}</CellBody>
 				<CellFooter>
-					 <input 
+					 <input
 					 {...this.props}
-					 type="radio" 
-					 className={inputClassName} 
+					 type="radio"
+					 className={inputClassName}
 					 onChange={this.handleChange}
 					 onClick={this.handleInputClick}
-					 name={this.props.name} 
+					 name={this.props.name}
 					 id={this.props.id} />
-                      <span className={iconClassName}></span>
+           <span className={iconClassName}></span>
 				</CellFooter>
 			</label>
 			);
-		
     }
 }
 

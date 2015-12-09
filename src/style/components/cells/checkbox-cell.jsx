@@ -4,6 +4,7 @@ import CellHeader from './cell-header';
 import CellBody from './cell-body';
 import CellFooter from './cell-footer';
 import events from '../utils/events';
+import classNames from 'classnames';
 
 class CheckboxCell extends React.Component {
 	
@@ -32,21 +33,19 @@ class CheckboxCell extends React.Component {
 		this.setState({checked: !this.state.checked},()=>{
 			if (this.props.onChange) this.props.onChange(e,this);
 		})
-		
 	}
 
 	render() {
-		let className="weui_cell weui_check_label";
+		let className = classNames('weui_cell','weui_check_label',this.props.className);
 		let inputClassName="weui_check";
 		let iconClassName="weui_icon_checked";
-		if(this.props.className) className += ` ${this.props.className}`;
 
 		return (
 			<label className={className} htmlFor={this.props.id} onClick={this.handleClick}>
 				<CellHeader>
-					<input 
+					<input
 					{...this.props}
-					type="checkbox" 
+					type="checkbox"
 					className={inputClassName}
 					name={this.props.name}
 					id={this.props.id}
@@ -73,7 +72,6 @@ CheckboxCell.propTypes = {
 	onChange:React.PropTypes.func,
 	onClick:React.PropTypes.func,
 	label:React.PropTypes.string
-
 };
 
 CheckboxCell.defaultProps = {

@@ -4,9 +4,10 @@ import CellHeader from './cell-header';
 import CellBody from './cell-body';
 import CellFooter from './cell-footer';
 import events from '../utils/events';
+import classNames from 'classnames';
 
 class SwitchCell extends React.Component {
-	
+
 	constructor(props){
 		super(props);
 		this.handleInputClick = this.handleInputClick.bind(this);
@@ -35,10 +36,9 @@ class SwitchCell extends React.Component {
 	}
 
 	render() {
-		let className="weui_cell weui_cell_switch";
+		let className = classNames('weui_cell','weui_cell_switch',this.props.className);
 		let inputClassName="weui_switch";
 		let iconClassName="weui_icon_checked";
-		if(this.props.className) className += ` ${this.props.className}`;
 
 		return (
 			<label className={className} htmlFor={this.props.id} onClick={this.handleClick}>
@@ -46,9 +46,9 @@ class SwitchCell extends React.Component {
 					{this.props.label}
 				</CellBody>
 				<CellFooter>
-					<input 
+					<input
 					{...this.props}
-					type="checkbox" 
+					type="checkbox"
 					className={inputClassName}
 					name={this.props.name}
 					id={this.props.id}
@@ -72,7 +72,6 @@ SwitchCell.propTypes = {
 	onChange:React.PropTypes.func,
 	onClick:React.PropTypes.func,
 	label:React.PropTypes.string
-
 };
 
 SwitchCell.defaultProps = {

@@ -101,7 +101,7 @@ const PageCell = (props) => {
 						<CellFooter>说明文字</CellFooter>
 					</Cell>
 				</Cells>
-				<Cells title="带跳转的列表项" access access>
+				<Cells title="带跳转的列表项" access>
 					<Cell >
 						<CellBody>Cell Standard</CellBody>
 						<CellFooter/>
@@ -148,7 +148,7 @@ const PageCell = (props) => {
 					<RadioCell label='radio cell 2' value='2'/>
 				</RadioCells>
 				<Cells title="复选列表项" checkbox>
-					<CheckboxCell name="checkbox1" id="s11" label="uncheck cell" />
+					<CheckboxCell name="checkbox1" id="s11" label="uncheck cell" checked/>
 					<CheckboxCell name="checkbox2" id="s12" label="checked cell" />
 				</Cells>
 				<Cells title="开关" form>
