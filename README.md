@@ -1,4 +1,7 @@
 # WeUI - React
+[![travis build](https://img.shields.io/travis/n7best/react-weui.svg?style=flat-square)](https://travis-ci.org/n7best/react-weui)
+[![version](https://img.shields.io/npm/v/n7-react-weui.svg?style=flat-square)](http://npm.im/starwars-names)
+[![MIT License](https://img.shields.io/npm/l/react-weui.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 WeUI with Webpack, Babel, React & LESS.
 
