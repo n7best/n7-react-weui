@@ -23,7 +23,7 @@ module.exports = {
   devtool: 'source-map',
   module: {
     loaders: [
-      { 
+      {
         test: /\.jsx?$/,
         include: path.join(__dirname, 'src'),
         loader: 'babel',
@@ -31,7 +31,7 @@ module.exports = {
           presets: ['es2015','react']
         }
       },
-      { 
+      {
         test: /\.less$/,
         loader: "style!css!autoprefixer!less"
       },

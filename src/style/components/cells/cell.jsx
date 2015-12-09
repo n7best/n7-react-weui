@@ -3,14 +3,14 @@ import style from './style';
 import CellHeader from './cell-header';
 import CellBody from './cell-body';
 import CellFooter from './cell-footer';
+import classNames from 'classnames';
 
 const Cell = (props) => {
-	let className = 'weui_cell';
-	
-	if(props.className) className += ` ${props.className}`;
-	if(props.select || props.selectAfter || props.selectBefore) className+= ' weui_cell_select';
-	if(props.selectAfter) className+=' weui_select_after';
-	if(props.selectBefore) className+= ' weui_select_before';
+	let className = classNames('weui_cell',{
+		weui_cell_select : props.select || props.selectAfter || props.selectBefore,
+		weui_select_after : props.selectAfter,
+		weui_select_before : props.selectBefore
+	}, props.className);
 
 	if(props.link){
 		return (

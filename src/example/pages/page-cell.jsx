@@ -85,7 +85,7 @@ const PageCell = (props) => {
 						<CellFooter>说明文字</CellFooter>
 					</Cell>
 				</Cells>
-				<Cells title="带图标、说明的列表项" split>
+				<Cells title="带图标、说明的列表项">
 					<Cell>
 						<CellHeader>
 							<img style={iconStyle} src={icon}  />
@@ -101,7 +101,7 @@ const PageCell = (props) => {
 						<CellFooter>说明文字</CellFooter>
 					</Cell>
 				</Cells>
-				<Cells title="带跳转的列表项" access split access>
+				<Cells title="带跳转的列表项" access access>
 					<Cell >
 						<CellBody>Cell Standard</CellBody>
 						<CellFooter/>
@@ -111,7 +111,7 @@ const PageCell = (props) => {
 						<CellFooter/>
 					</Cell>
 				</Cells>
-				<Cells title="带说明、跳转的列表项" split access>
+				<Cells title="带说明、跳转的列表项" access>
 					<Cell>
 						<CellHeader>
 							<img style={iconStyle} src={icon}  />
@@ -127,7 +127,7 @@ const PageCell = (props) => {
 						<CellFooter>说明文字</CellFooter>
 					</Cell>
 				</Cells>
-				<Cells title="带图标、说明、跳转的列表项" split access>
+				<Cells title="带图标、说明、跳转的列表项" access>
 					<Cell>
 						<CellHeader>
 							<img style={iconStyle} src={icon}  />
@@ -147,7 +147,7 @@ const PageCell = (props) => {
 					<RadioCell label='radio cell 1' value='1'/>
 					<RadioCell label='radio cell 2' value='2'/>
 				</RadioCells>
-				<Cells title="复选列表项" split checkbox>
+				<Cells title="复选列表项" checkbox>
 					<CheckboxCell name="checkbox1" id="s11" label="uncheck cell" />
 					<CheckboxCell name="checkbox2" id="s12" label="checked cell" />
 				</Cells>
@@ -168,7 +168,7 @@ const PageCell = (props) => {
 					<InputCell name="textdate" type="date" id="text6" label="日期" />
 					<InputCell name="textdatetime" type="datetime-local" id="text7" label="时间" />
 				</Cells>
-				<Cells title="选择" split>
+				<Cells title="选择">
 					<InputCell header={select1} name="selecttext" type="text" id="selecttext" placeholder="请输入号码" selectBefore/>
 					<Cell select><CellBody>{select2}</CellBody></Cell>
 					<Cell selectAfter><CellHeader>国家/地区</CellHeader><CellBody>{select3}</CellBody></Cell>

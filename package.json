@@ -1,6 +1,6 @@
 {
   "name": "n7-react-weui",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "WeUI with Webpack, Babel, React & LESS.",
   "main": "./lib",
   "dependencies": {
@@ -19,13 +19,22 @@
     "babel-loader": "^6.0.1",
     "babel-preset-es2015": "^6.1.4",
     "babel-preset-react": "^6.1.4",
+    "chai": "^3.4.1",
     "cpx": "^1.2.1",
     "cross-env": "^1.0.5",
     "css-loader": "^0.15.1",
+    "enzyme": "^1.1.0",
     "history": "^1.13.1",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-cli": "^0.1.1",
+    "karma-mocha": "^0.2.1",
+    "karma-webpack": "^1.7.0",
     "less": "^2.5.1",
     "less-loader": "^2.2.0",
+    "mocha": "^2.3.4",
     "node-libs-browser": "^0.5.2",
+    "react-addons-test-utils": "^0.14.3",
     "react-router": "^1.0.0",
     "redux-devtools": "^2.1.5",
     "style-loader": "^0.12.3",
@@ -39,7 +48,9 @@
     "build": "cross-env NODE_ENV=production npm run babel && npm run less",
     "prebuild": "npm run clean",
     "start": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "deploy": "cross-env NODE_ENV=production webpack -p --config webpack.production.config.js"
+    "deploy": "cross-env NODE_ENV=production webpack -p --config webpack.production.config.js",
+    "test": "cross-env NODE_ENV=test karma start",
+    "test:watch": "cross-env NODE_ENV=test karma start --no-single-run"
   },
   "keywords": [
     "webpack",
@@ -50,5 +61,6 @@
     "babel"
   ],
   "author": "n7best <n7best@gmail.com> (http://n7best.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "github:n7best/react-weui"
 }

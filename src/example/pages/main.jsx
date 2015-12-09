@@ -10,7 +10,7 @@ const App = (props) => {
 
 	return (
 		<Page title="React WeUI" desc="为微信Web服务量身设计">
-			<Cells split access className="global_navs" title="示例">
+			<Cells access className="global_navs" title="示例">
 				<Cell link="#/todo">
 					<CellHeader>
 						<img src="./images/icon_nav_cell.png" className="icon_nav" />
@@ -19,7 +19,7 @@ const App = (props) => {
 					<CellFooter />
 				</Cell>
 			</Cells>
-			<Cells split access className="global_navs" title="官方组件">
+			<Cells access className="global_navs" title="官方组件">
 				<Cell link="#/button">
 					<CellHeader>
 						<img src="./images/icon_nav_button.png" className="icon_nav" />
@@ -78,7 +78,7 @@ const App = (props) => {
 				</Cell>
 				
 			</Cells>
-			<Cells split access className="global_navs" title="第三方组件">
+			<Cells access className="global_navs" title="第三方组件">
 				<Cell link="#/swiper">
 					<CellHeader>
 						<img src="./images/icon_nav_button.png" className="icon_nav" />

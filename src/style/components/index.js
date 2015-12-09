@@ -24,5 +24,5 @@ import Swiper from './swiper';
 import SwiperItem from './swiper/item';
 import Page from './page';
 
-export default {Page, Swiper, SwiperItem, Toast, Progress, Message, Mask, Dialog, Cells, CellBody, CellFooter, CellHeader, Cell, CellsTips, CellsTitle, CheckboxCell, InputCell, Button, Select, RadioCell, RadioCells, SwitchCell, ButtonArea, Actionsheet, Article}
+module.exports = {Page, Swiper, SwiperItem, Toast, Progress, Message, Mask, Dialog, Cells, CellBody, CellFooter, CellHeader, Cell, CellsTips, CellsTitle, CheckboxCell, InputCell, Button, Select, RadioCell, RadioCells, SwitchCell, ButtonArea, Actionsheet, Article}
 
