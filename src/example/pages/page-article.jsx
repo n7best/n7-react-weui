@@ -7,7 +7,7 @@ class PageArticle extends React.Component {
     constructor(props) {
         super(props);
     }
-	
+
     render() {
         return (
         	<Page title="Article" className="article">

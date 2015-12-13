@@ -2,7 +2,7 @@ import React from 'react';
 import style from './style';
 import classNames from 'classnames';
 
-const Button = (props) => {
+var Button = (props) => {
 	let className = classNames('weui_btn',{
 		[`weui_btn_${props.type}`]: !props.plain,
 		[`weui_btn_plain_${props.type}`]: props.plain,

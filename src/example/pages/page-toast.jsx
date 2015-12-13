@@ -17,9 +17,9 @@ const toast2 = {
 	  };
 
 class PageToast extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+  constructor(props) {
+  	super(props);
+  }
 
 	showToast(toast){
 		let container = document.getElementById('toasts')
@@ -27,9 +27,9 @@ class PageToast extends React.Component {
 		let toastinstance = ReactDOM.render(<Toast show loading={toast.loading} time={toast.time}>{toast.text}</Toast>,container);
 	}
 
-    render() {
-        return (
-	        <Page title="Toast" className="toast">
+  render() {
+    return (
+      <Page title="Toast" className="toast">
 				<div className="bd spacing">
 					<Button 
 					type="primary" 
@@ -45,7 +45,7 @@ class PageToast extends React.Component {
 				<div id="toasts" />
 			</Page>
 		);
-    }
+  }
 }
 
 

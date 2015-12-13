@@ -1,6 +1,6 @@
 {
   "name": "n7-react-weui",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "WeUI with Webpack, Babel, React & LESS.",
   "main": "./lib",
   "dependencies": {

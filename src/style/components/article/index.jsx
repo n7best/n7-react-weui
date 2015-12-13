@@ -2,15 +2,14 @@ import React from 'react';
 import style from './style';
 import classNames from 'classnames';
 
-
 const Article = (props) => {
-	let className = classNames('weui_article',props.classNames)
+	let className = classNames('weui_article',props.className)
 
 	return (
 		<div className={className}>
-            {props.children}
-        </div>
-		);
+      {props.children}
+    </div>
+	);
 }
 
 Article.propTypes = {
