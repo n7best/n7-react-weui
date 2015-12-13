@@ -77,7 +77,7 @@ const PageCell = (props) => {
 	let select3 = <Select data={select3data} value="2" name="select3"/>;
 
 	return (
-		<Page title="Cell" className="cell">
+		<Page title="Cell" className="cell" transition="bounceIn">
 			<div className="bd">
 				<Cells title="带说明的列表项">
 					<Cell>

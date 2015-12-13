@@ -29,7 +29,7 @@ class PageToast extends React.Component {
 
   render() {
     return (
-      <Page title="Toast" className="toast">
+      <Page title="Toast" className="toast" transition="flipInX">
 				<div className="bd spacing">
 					<Button 
 					type="primary" 

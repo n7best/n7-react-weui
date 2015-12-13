@@ -26,7 +26,7 @@ class PageActionsheet extends React.Component {
     ];
 
     return (
-      <Page title="Actionsheet" className="actionsheet">
+      <Page title="Actionsheet" className="actionsheet" transition="wiggle">
         <div className="bd spacing">
           <Button
           type="primary"

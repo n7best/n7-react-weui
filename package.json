@@ -1,11 +1,12 @@
 {
   "name": "n7-react-weui",
-  "version": "0.1.9",
+  "version": "0.1.11",
   "description": "WeUI with Webpack, Babel, React & LESS.",
   "main": "./lib",
   "dependencies": {
     "babel-polyfill": "^6.0.16",
     "classnames": "^2.2.0",
+    "mobile-detect": "^1.3.0",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
     "react-redux": "^4.0.0",
@@ -63,7 +64,11 @@
     "template",
     "starter",
     "es6",
-    "babel"
+    "babel",
+    "weui",
+    "mobile",
+    "react",
+    "react-weui"
   ],
   "author": "n7best <n7best@gmail.com> (http://n7best.com)",
   "license": "MIT",

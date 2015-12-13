@@ -1,11 +1,12 @@
 import React from 'react';
 import Article from '../../style/components/article';
 import Page from '../../style/components/page';
-
+import MobileDetect from '../../style/components/utils/mobiledetect';
 
 class PageArticle extends React.Component {
     constructor(props) {
         super(props);
+        console.log(MobileDetect);
     }
 
     render() {
@@ -17,17 +18,15 @@ class PageArticle extends React.Component {
 		                <h2>章标题</h2>
 		                <section>
 		                    <h3>1.1 节标题</h3>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		                        consequat. Duis aute</p>
+		                    <p>是不是iOS : {MobileDetect.isIOS ? '是' : '不是'}，是不是IOS8: {MobileDetect.isIOS8 ? '是' : '不是'}, 是不是IOS9: {MobileDetect.isIOS9 ? '是' : '不是'}</p>
+                        <p>是不是Android : {MobileDetect.isAndroid ? '是' : '不是'}</p>
+                        <p>是不是Window移动设备 : {MobileDetect.isWindow ? '是' : '不是'}</p>
+                        <p>是不是移动设备 : {MobileDetect.isMobile ? '是' : '不是'}</p>
+                        <p>是不是微信内置浏览器 : {MobileDetect.isWechat ? '是' : '不是'}</p>
 		                </section>
 		                <section>
 		                    <h3>1.2 节标题</h3>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		                    <p>iOS版本: {MobileDetect.iOSVer}, 安卓版本:{MobileDetect.androidVer}</p>
 		                </section>
 		            </section>
 		        </Article>

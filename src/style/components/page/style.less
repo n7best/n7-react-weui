@@ -9,8 +9,6 @@
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     background-color: #FBF9FE;
-    .animated;
-    .fadeInRight;
 }
 
 .hd {
@@ -35,9 +33,7 @@
     margin: 0 15%;
 }
 
-
 .pull-to-refresh-content {
-
     margin-top: -@toolbarSize;
     height: ~"-webkit-calc(100% + @{toolbarSize})";
     height: ~"-moz-calc(100% + @{toolbarSize})";
@@ -45,11 +41,11 @@
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     background-color: #FBF9FE;
-    
+
     .pull-to-refresh-layer {
         margin-top: 0;
     }
-    
+
     &.transitioning, &.refreshing {
         .transition(400ms); 
     }
@@ -66,7 +62,7 @@
         }
         .preloader {
             visibility: visible;
-        }   
+        }
     }
     &.pull-up {
         .pull-to-refresh-arrow {
@@ -77,21 +73,20 @@
 
 /* === Pull To Refresh === */
 .pull-to-refresh-layer {
-    position:absolute; 
+    position:absolute;
     position: relative;
     margin-top: -@toolbarSize;
-    left:0; 
-    top:0; 
-    width:100%; 
-    height:@toolbarSize; 
-    
+    left:0;
+    top:0;
+    width:100%;
+    height:@toolbarSize;
     .preloader {
         position: absolute;
         left: 50%;
         top: 50%;
         margin-top: 5px;
         visibility: hidden;
-        
+
     }
     .pull-to-refresh-arrow {
         width: 13px;
@@ -108,7 +103,6 @@
         .transform(rotate(0deg) translate3d(0,0,0));
         .transition(300ms);
     }
-    
 }
 
 

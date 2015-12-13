@@ -5,7 +5,7 @@ import Page from '../../style/components/page';
 const PageButton = (props) => {
 
 	return (
-		<Page title="Button" className="button">
+		<Page title="Button" className="button" transition="fadeInRight">
 			<div className="bd spacing">
 				<Button type="primary">按钮</Button>
 				<Button type="primary" disabled>按钮</Button>
