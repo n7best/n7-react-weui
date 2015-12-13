@@ -10,5 +10,6 @@ module.exports = {
   isAndroid : md.os() === 'AndroidOS',
   isWindow: md.os() === 'WindowsMobileOS' || md.os() === 'WindowsPhoneOS',
   isMobile: md.mobile() !== null ? true : false,
-  isWechat: md.is('MicroMessenger'),
+  isWechat: md.match('MicroMessenger') ? true : false,
+  wechatVer: md.version('MicroMessenger') ? md.version('MicroMessenger') : null,
 };

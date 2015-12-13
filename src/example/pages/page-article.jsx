@@ -26,7 +26,7 @@ class PageArticle extends React.Component {
 		                </section>
 		                <section>
 		                    <h3>1.2 节标题</h3>
-		                    <p>iOS版本: {MobileDetect.iOSVer}, 安卓版本:{MobileDetect.androidVer}</p>
+		                    <p>iOS版本: {MobileDetect.iOSVer}, 安卓版本:{MobileDetect.androidVer}, 微信版本:{MobileDetect.wechatVer}</p>
 		                </section>
 		            </section>
 		        </Article>
