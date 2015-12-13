@@ -304,8 +304,11 @@ class Page extends React.Component {
       animation: `${this.props.transition} ${this.props.transitionTime} forwards`
     };
 
+
+
+
 		return (
-		<div className={className} ref="container" style={styles}>
+		<div className={className} ref="container" style={ this.props.ptr ? {}: styles}>
 			{this.renderptr()}
 			<PageHeader title={this.props.title} desc={this.props.desc} />
 			{this.props.children}
