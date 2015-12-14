@@ -47,3 +47,7 @@ npm install
 npm start
 ```
 然后在浏览器打开 `http://localhost:8080`。
+
+## 技术支持 & Sponsor
+[![BrowserStack](https://jquery.org/resources/members/browserstack.png)](https://www.browserstack.com/)
+
