@@ -30,7 +30,7 @@ class PageDialog extends React.Component {
       	];
 
       return (
-    	  <Page title="Dialog" className="dialog" transition="rollIn">
+    	  <Page title="Dialog" className="dialog" transition="rollIn" transitionTime="1s">
   				<div className="bd spacing">
   					<Button
   					type="primary"

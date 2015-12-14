@@ -13,7 +13,6 @@ import PageArticle from './pages/page-article';
 import PageActionsheet from './pages/page-actionsheet';
 import PageSwiper from './pages/page-swiper';
 import PagePtr from './pages/page-ptr';
-import TodoPage from './pages/page-todo';
 import style from './style';
 
 const WeUI = () => {
@@ -23,7 +22,6 @@ const WeUI = () => {
         <IndexRoute component={ App } />
         <Route path="button" component={ PageButton } />
         <Route path="cell" component={ PageCell } />
-        <Route path="todo" component={ TodoPage } />
         <Route path="toast" component={ PageToast } />
         <Route path="dialog" component={ PageDialog } />
         <Route path="progress" component={ PageProgress } />

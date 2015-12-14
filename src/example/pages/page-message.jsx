@@ -14,7 +14,7 @@ class PageMessage extends React.Component {
   	];
 
     return (
-      <Page className="actionsheet" transition="wobble">
+      <Page className="actionsheet" transition="wobble" transitionTime="1s">
   			<Message
   			icon={<i className="weui_icon_success weui_icon_msg"></i>}
   			title="操作成功"
